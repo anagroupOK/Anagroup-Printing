@@ -40,12 +40,26 @@ Catatan:
 | Subtotal | Rp298.000 |
 | PPN 11% | Rp32.780 |
 | **Total** | **Rp330.780** |
-| Status | ✅ **Lunas & aktif.** RDAP PANDI: terdaftar 20 Nov 2026 07:56 UTC, expired 20 Nov 2028. Setelah verifikasi email, nameserver berubah ke `nsx1.domainesia.com`, `nsx2.domainesia.com` (08:00 UTC). Per 08:43 UTC DNS publik masih `REFUSED` / zone belum ter-load — perlu record ditambahkan atau bantuan support DomaiNesia. |
+| Status | ✅ **Lunas, verifikasi email selesai, domain aktif.** RDAP PANDI: terdaftar 20 Nov 2026 07:56 UTC, expired 20 Nov 2028. Nameserver `nsx1.domainesia.com`, `nsx2.domainesia.com`. ⚠️ DNS publik masih `REFUSED` — zone belum melayani sampai record ditambahkan di DNS Management. |
 | Include | DNS Management gratis 2 tahun |
 
-**Todo sekarang:**
-1. Klik link verifikasi di email DomaiNesia (dalam **3×24 jam** sejak lunas) agar domain tidak ditangguhkan.
-2. Pilih hosting untuk landing page, lalu ubah nameserver / tambahkan record DNS sesuai bagian "Cara pasang domain" di bawah.
+**Progres deploy:**
+- ✅ Email DomaiNesia sudah diverifikasi.
+- ✅ File sudah di-commit ke https://github.com/anagroupOK/Anagroup-Printing (branch `main`), commit terbaru `b1f6038` (SEO update).
+- ✅ GitHub Pages aktif: source **Deploy from a branch → main / (root)**. `github.io/Anagroup-Printing` sudah redirect ke `dicetaksaja.id`.
+- ✅ DNS sudah ditambahkan di DomaiNesia (4 A + 3 CNAME) dan sudah resolve global.
+- ✅ **Situs LIVE**: https://dicetaksaja.id/ (HTTP 200, HTTPS 200, `www` ikut ke root).
+- ✅ GitHub Pages: **DNS check successful**, **Enforce HTTPS** sudah dicentang.
+- ✅ Blogger: `http://blog.dicetaksaja.id/` sudah aktif (HTTP 200, judul blog tampil). HTTPS Blogger masih **"Tidak Ada"** — sertifikat biasanya diprovision otomatis dalam 24 jam setelah custom domain aktif.
+
+**Progres SEO (20 Nov 2026):**
+- ✅ Title + meta description dioptimalkan untuk kata kunci lokal: *cetak & fotocopy murah 24 jam Rawamangun Jakarta Timur*.
+- ✅ `hreflang="id-ID"` + `x-default`, meta geo, `og:locale`, `max-image-preview:large`.
+- ✅ Structured data `@graph`: `LocalBusiness` + `WebSite` + `FAQPage` (5 FAQ). Alamat diverifikasi dari Google Maps listing (`Jalan Balai Pustaka Baru, RW 07`, 13220).
+- ✅ `robots.txt` + `sitemap.xml` (200, 1 URL).
+- ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas).
+- ✅ Lighthouse: **Accessibility 100, Best Practices 100, SEO 100**.
+- ⏳ Perlu data nyata: foto hasil cetak, testimoni, dan konfirmasi harga sebelum tayang permanen.
 
 ### Rekomendasi struktur
 
@@ -57,29 +71,30 @@ Catatan:
 
 ### Opsi A — Landing page di GitHub Pages / Netlify / Vercel (paling mudah)
 
-1. Beli domain di **DomaiNesia** (sudah dipilih; keranjang sudah disiapkan). Catatan: Cloudflare Registrar **tidak mendukung** ekstensi `.id`.
-2. Repo sudah ada dan kosong: **https://github.com/anagroupOK/Anagroup-Printing** (branch `main`). Karena `git` tidak terinstall di komputer ini, upload lewat web: **Add file → Upload files**, lalu pilih semua isi folder ini (`index.html`, `styles.css`, `script.js`, `CNAME`, `README.md`) → **Commit changes**.
-   - **Jangan hapus/ubah isi file `CNAME`** — sudah berisi `dicetaksaja.id` dan dipakai GitHub Pages untuk custom domain.
-3. Aktifkan GitHub Pages: **Settings → Pages → Source: Deploy from a branch → main / (root)** → Save.
-4. Di DomaiNesia, tambahkan DNS:
+1. Domain sudah dibeli di **DomaiNesia** dan sudah diverifikasi. Catatan: Cloudflare Registrar **tidak mendukung** ekstensi `.id`.
+2. ✅ File sudah ter-upload di **https://github.com/anagroupOK/Anagroup-Printing** (branch `main`): `index.html`, `styles.css`, `script.js`, `CNAME`, `README.md`. File `CNAME` berisi `dicetaksaja.id` — **jangan dihapus/diubah**.
+3. ✅ GitHub Pages sudah aktif: **Settings → Pages → Source: Deploy from a branch → main / (root)**.
+4. ✅ Sudah ditambahkan di DomaiNesia → Kelola `dicetaksaja.id` → **DNS Management**:
    - `A` `@` → `185.199.108.153`
    - `A` `@` → `185.199.109.153`
    - `A` `@` → `185.199.110.153`
    - `A` `@` → `185.199.111.153`
    - `CNAME` `www` → `anagroupOK.github.io`
    - `CNAME` `blog` → `ghs.google.com` (untuk Blogger)
-5. Setelah DNS aktif, centang **Enforce HTTPS** di GitHub Pages.
+   - `CNAME` `7zdlg2vc5uk5` → `gv-zfjthynhht64di.dv.googlehosted.com` (verifikasi kepemilikan Blogger, unik per akun)
+5. ✅ Setelah DNS aktif, **Enforce HTTPS** di GitHub Pages sudah dicentang.
 
 Untuk Netlify/Vercel, upload folder ini lalu ikuti instruksi DNS yang muncul di dashboard (biasanya cukup 1 record `A` atau `CNAME`).
 
 ### Opsi B — Tetap pakai Blogger dengan domain sendiri
 
-1. Di Blogger: **Settings → Publishing → Custom Domain → + Set up a third-party URL for your blog**.
-2. Masukkan `blog.dicetaksaja.id` (disarankan pakai subdomain agar root tetap dipakai landing page).
-3. Di DNS tambahkan untuk subdomain (ikuti juga petunjuk yang muncul di dashboard Blogger):
-   - `CNAME` `blog` → `ghs.google.com`
-4. Klik **Save** di Blogger, lalu tunggu propagasi (bisa sampai 48 jam).
-   - Catatan: 4 record `A` (`216.239.32.21`, `216.239.34.21`, `216.239.36.21`, `216.239.38.21`) dipakai kalau memetakan **root domain** langsung ke Blogger. Karena root dipakai landing page, cukup CNAME subdomain `blog`.
+1. ✅ Di Blogger: **Settings → Publishing → Custom domain** sudah diisi `blog.dicetaksaja.id` (subdomain dipakai agar root tetap landing page).
+2. Blogger meminta **2 CNAME** dan keduanya sudah ditambahkan di DomaiNesia:
+   - `blog` → `ghs.google.com`
+   - `7zdlg2vc5uk5` → `gv-zfjthynhht64di.dv.googlehosted.com` (security/verification CNAME, unik per blog)
+3. Klik **Save** ulang di Blogger **minimal 1 jam** setelah DNS ditambahkan (instruksi resmi Google), lalu tunggu sertifikat HTTPS provisioned.
+4. **Alihkan domain** (redirect root) sengaja **dimatikan** agar `dicetaksaja.id` tetap menampilkan landing page.
+   - Catatan: 4 record `A` Google (`216.239.32.21`, dll.) hanya dipakai kalau root domain dipetakan langsung ke Blogger — tidak dipakai di sini.
 
 ## Sebelum tayang
 
