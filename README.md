@@ -63,6 +63,17 @@ Catatan:
 - ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
 - ⏳ Perlu data nyata: foto hasil cetak, testimoni berizin, dan konfirmasi harga final sebelum tayang permanen.
 
+### Slot foto & testimoni (siap diisi)
+
+- **Galeri `#galeri`** berisi 6 placeholder. Cara pasang foto: ganti seluruh `<div class="photo-frame" ...>...</div>` dengan:
+  ```html
+  <img class="photo-img" src="images/NAMA-FILE.jpg" alt="Deskripsi hasil cetak asli" loading="lazy" width="800" height="600">
+  ```
+- Nama file yang sudah disiapkan di caption: `buku-umroh.jpg`, `buku-tahunan-sekolah.jpg`, `booklet-katalog.jpg`, `cetak-jilid-buku.jpg`, `fotocopy-scan.jpg`, `kaos-sablon.jpg`.
+- Ukuran ideal: minimal **800×600 px**, JPG/WEBP, dikompres **<200 KB per foto**. Utamakan foto asli dengan pencahayaan bagus dan tanpa watermark.
+- Upload folder `images/` ke repo GitHub (branch `main`) bersama `index.html`.
+- **Testimoni:** duplikat blok `<figure class="testi-card">` di section `#testimoni` untuk tiap testimoni baru. Format singkat: *inisial/nama · jenis layanan · satu kalimat pengalaman*. Slot berizin sudah disiapkan dengan tombol WA di bawah kartu testimoni. **Selalu minta izin dulu** sebelum memasang nama atau kutipan pelanggan.
+
 ### Rekomendasi struktur
 
 - `dicetaksaja.id` → landing page ini
@@ -104,7 +115,8 @@ Untuk Netlify/Vercel, upload folder ini lalu ikuti instruksi DNS yang muncul di 
 - [ ] Sesuaikan nomor WhatsApp `6281213053872` di semua tombol WA (tips: cari "wa.me/").
 - [ ] Cek lagi estimasi harga (`Rp150`, `Rp250`) dengan daftar harga terbaru.
 - [ ] Ganti testimoni dengan izin/atribusi pelanggan bila diperlukan.
-- [ ] Tambahkan foto-foto hasil cetak asli untuk memperkuat kepercayaan (widget hero saat ini sengaja dibuat CSS agar ringan).
+- [ ] Isi 6 slot foto hasil cetak asli di `#galeri` (placeholder sudah disiapkan; widget hero tetap CSS agar ringan).
+- [ ] Tambahkan testimoni berizin dengan menduplikat blok `.testi-card`.
 - [ ] Uji di HP: menu, tombol WA, dan kecepatan (Lighthouse).
 
 ## Menjalankan lokal
