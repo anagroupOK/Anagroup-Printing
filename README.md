@@ -45,7 +45,7 @@ Catatan:
 
 **Progres deploy:**
 - ✅ Email DomaiNesia sudah diverifikasi.
-- ✅ File sudah di-commit ke https://github.com/anagroupOK/Anagroup-Printing (branch `main`), commit terbaru `d0987fc` (perjelas BTS); pembaruan kata kunci + buku umroh menyusul.
+- ✅ File sudah di-commit ke https://github.com/anagroupOK/Anagroup-Printing (branch `main`), commit terbaru `0077610` (cetak buku umroh + optimalisasi kata kunci).
 - ✅ GitHub Pages aktif: source **Deploy from a branch → main / (root)**. `github.io/Anagroup-Printing` sudah redirect ke `dicetaksaja.id`.
 - ✅ DNS sudah ditambahkan di DomaiNesia (4 A + 3 CNAME) dan sudah resolve global.
 - ✅ **Situs LIVE**: https://dicetaksaja.id/ (HTTP 200, HTTPS 200, `www` ikut ke root).
@@ -59,7 +59,7 @@ Catatan:
 - ✅ `hreflang="id-ID"` + `x-default`, meta geo, `og:locale`, `max-image-preview:large`.
 - ✅ Structured data `@graph`: `LocalBusiness` + `WebSite` + `FAQPage` (8 FAQ, teksnya identik dengan FAQ yang terlihat). Alamat diverifikasi dari Google Maps listing (`Jalan Balai Pustaka Baru, RW 07`, 13220).
 - ✅ `robots.txt` + `sitemap.xml` (200, 1 URL).
-- ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Indexing akan diminta ulang setelah pembaruan ini tayang.
+- ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Pembaruan terbaru sudah tayang, jadi Google akan mengambil versi ini lewat sitemap pada crawl berikutnya.
 - ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
 - ⏳ Perlu data nyata: foto hasil cetak, testimoni berizin, dan konfirmasi harga final sebelum tayang permanen.
 
