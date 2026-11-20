@@ -40,12 +40,12 @@ Catatan:
 | Subtotal | Rp298.000 |
 | PPN 11% | Rp32.780 |
 | **Total** | **Rp330.780** |
-| Status | ✅ **Lunas, verifikasi email selesai, domain aktif.** RDAP PANDI: terdaftar 20 Nov 2026 07:56 UTC, expired 20 Nov 2028. Nameserver `nsx1.domainesia.com`, `nsx2.domainesia.com`. ⚠️ DNS publik masih `REFUSED` — zone belum melayani sampai record ditambahkan di DNS Management. |
+| Status | ✅ **Lunas, verifikasi email selesai, domain aktif.** RDAP PANDI: terdaftar 20 Nov 2026 07:56 UTC, expired 20 Nov 2028. Nameserver `nsx1.domainesia.com`, `nsx2.domainesia.com`. DNS publik sudah resolve global. |
 | Include | DNS Management gratis 2 tahun |
 
 **Progres deploy:**
 - ✅ Email DomaiNesia sudah diverifikasi.
-- ✅ File sudah di-commit ke https://github.com/anagroupOK/Anagroup-Printing (branch `main`), commit terbaru `b1f6038` (SEO update).
+- ✅ File sudah di-commit ke https://github.com/anagroupOK/Anagroup-Printing (branch `main`), commit terbaru `d0987fc` (perjelas BTS); pembaruan kata kunci + buku umroh menyusul.
 - ✅ GitHub Pages aktif: source **Deploy from a branch → main / (root)**. `github.io/Anagroup-Printing` sudah redirect ke `dicetaksaja.id`.
 - ✅ DNS sudah ditambahkan di DomaiNesia (4 A + 3 CNAME) dan sudah resolve global.
 - ✅ **Situs LIVE**: https://dicetaksaja.id/ (HTTP 200, HTTPS 200, `www` ikut ke root).
@@ -53,13 +53,15 @@ Catatan:
 - ✅ Blogger: `http://blog.dicetaksaja.id/` sudah aktif (HTTP 200, judul blog tampil). HTTPS Blogger masih **"Tidak Ada"** — sertifikat biasanya diprovision otomatis dalam 24 jam setelah custom domain aktif.
 
 **Progres SEO (20 Nov 2026):**
-- ✅ Title + meta description dioptimalkan untuk kata kunci lokal: *cetak & fotocopy murah 24 jam Rawamangun Jakarta Timur*.
+- ✅ Title + meta description + H1 dioptimalkan untuk kata kunci lokal dan layanan: *cetak buku umroh/umrah, buku tahunan sekolah (BTS), booklet, fotocopy murah, digital printing A3+, scan A0–A4, kaos, Rawamangun Jakarta Timur, order WA 24 jam*.
+- ✅ 12 kartu layanan, 8 FAQ, dan 9 entri `OfferCatalog`; 6 tautan internal ke artikel blog yang sudah kaya kata kunci (buku umroh, Yasin, agenda, kaos, buku menu, digital printing).
+- ✅ Strategi kata kunci memakai variasi ejaan **`umroh`** dan **`umrah`**, serta istilah **`BTS`** diperjelas sebagai **buku tahunan sekolah**. Tidak memakai meta `keywords` (diabaikan Google) — fokus ke search intent, konten, tautan internal, dan schema.
 - ✅ `hreflang="id-ID"` + `x-default`, meta geo, `og:locale`, `max-image-preview:large`.
-- ✅ Structured data `@graph`: `LocalBusiness` + `WebSite` + `FAQPage` (5 FAQ). Alamat diverifikasi dari Google Maps listing (`Jalan Balai Pustaka Baru, RW 07`, 13220).
+- ✅ Structured data `@graph`: `LocalBusiness` + `WebSite` + `FAQPage` (8 FAQ, teksnya identik dengan FAQ yang terlihat). Alamat diverifikasi dari Google Maps listing (`Jalan Balai Pustaka Baru, RW 07`, 13220).
 - ✅ `robots.txt` + `sitemap.xml` (200, 1 URL).
-- ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas).
-- ✅ Lighthouse: **Accessibility 100, Best Practices 100, SEO 100**.
-- ⏳ Perlu data nyata: foto hasil cetak, testimoni, dan konfirmasi harga sebelum tayang permanen.
+- ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Indexing akan diminta ulang setelah pembaruan ini tayang.
+- ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
+- ⏳ Perlu data nyata: foto hasil cetak, testimoni berizin, dan konfirmasi harga final sebelum tayang permanen.
 
 ### Rekomendasi struktur
 

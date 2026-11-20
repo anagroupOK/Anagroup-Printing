@@ -366,6 +366,16 @@ button { font: inherit; }
 .service-card h3 { margin-bottom: 8px; }
 .service-card p { font-size: .86rem; color: var(--muted); min-height: 72px; }
 .service-tag { display: inline-block; margin-top: 14px; padding: 5px 10px; border-radius: 100px; background: var(--tint); font-size: .68rem; font-weight: 700; color: var(--ink-soft); }
+.service-more { display: inline-flex; align-items: center; gap: 5px; margin-top: 10px; font-size: .72rem; font-weight: 800; color: var(--brand-ink); }
+.service-more:hover { color: var(--brand-dark); }
+.service-more .icon { width: 12px; height: 12px; }
+
+.blog-links { margin-top: 34px; padding: 24px; border: 1px dashed #ffd4c3; border-radius: var(--radius-lg); background: #fff8f4; }
+.blog-links h3 { margin-bottom: 14px; font-size: .92rem; letter-spacing: .02em; }
+.blog-link-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px 18px; }
+.blog-link-grid a { display: inline-flex; align-items: center; gap: 6px; font-size: .82rem; font-weight: 700; color: var(--ink-soft); }
+.blog-link-grid a:hover { color: var(--brand-ink); }
+.blog-link-grid .icon { width: 13px; height: 13px; color: var(--brand); flex: none; }
 
 /* Price */
 .price-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: stretch; }
@@ -592,6 +602,7 @@ button { font: inherit; }
   .hero-visual { order: 2; max-width: 520px; width: 100%; margin-inline: auto; }
   .section-head { grid-template-columns: 1fr; gap: 14px; }
   .section-head > p { max-width: 620px; }
+  .blog-link-grid { grid-template-columns: repeat(2, 1fr); }
   .price-grid, .testi-grid { grid-template-columns: 1fr; }
   .price-card.featured { transform: none; }
   .steps { grid-template-columns: repeat(2, 1fr); gap: 36px 20px; }
@@ -610,6 +621,7 @@ button { font: inherit; }
   .hero-points { gap: 12px 18px; }
   .services-grid { grid-template-columns: 1fr; }
   .service-card p { min-height: 0; }
+  .blog-link-grid { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr; }
   .about-visual { height: 320px; }
   .paper { width: 200px; height: 250px; }
