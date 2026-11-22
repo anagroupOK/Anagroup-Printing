@@ -9,13 +9,13 @@ Target: **1 artikel/hari selama 30 hari** untuk memperkuat SEO lokal Rawamangun/
 | 1 | 2026-11-22 | fotocopy murah rawamangun 24 jam | Fotocopy Murah Rawamangun 24 Jam: Cepat, Rapi, Antar-Jemput | Published | https://blog.dicetaksaja.id/2026/11/blog-post_950.html |
 | 2 | 2026-11-23 | percetakan rawamangun jakarta timur | Percetakan Rawamangun Jakarta Timur: Cetak Cepat, Bisa WA 24 Jam | Published | https://blog.dicetaksaja.id/2026/11/percetakan-rawamangun-jakarta-timur.html |
 | 3 | 2026-11-24 | print a3+ rawamangun | Print A3+ Rawamangun Mulai Rp1.750: Poster, Denah, & Gambar Teknis | Published | https://blog.dicetaksaja.id/2026/11/print-a3-rawamangun-mulai-rp1750-poster.html |
-| 4 | 2026-11-25 | cetak brosur rawamangun | Cetak Brosur Rawamangun untuk Promosi UMKM: Murah, Rapi, Cepat | Planned | - |
-| 5 | 2026-11-26 | jilid skripsi rawamangun | Jilid Skripsi Hard Cover Rawamangun: Rapi, Kuat, Siap Sidang | Planned | - |
-| 6 | 2026-11-27 | scan dokumen rawamangun | Scan Dokumen Rawamangun A4/F4: Cepat, Jelas, Kirim via WA/Email | Planned | - |
-| 7 | 2026-11-28 | cetak poster a3+ rawamangun | Cetak Poster A3+ Rawamangun untuk Event, Toko, dan Kampanye | Planned | - |
-| 8 | 2026-11-29 | cetak kartu nama rawamangun | Cetak Kartu Nama Rawamangun Mulai Rp35.000: Profesional & Tajam | Planned | - |
-| 9 | 2026-11-30 | cetak booklet rawamangun | Cetak Booklet Rawamangun: Company Profile, Katalog, & Presentasi | Planned | - |
-| 10 | 2026-12-01 | cetak buku yasin rawamangun | Cetak Buku Yasin Rawamangun: Hardcover/Softcover untuk Pengajian | Planned | - |
+| 4 | 2026-11-25 | cetak brosur rawamangun | Cetak Brosur Rawamangun untuk Promosi UMKM: Murah, Rapi, Cepat | Published | https://blog.dicetaksaja.id/2026/11/cetak-brosur-rawamangun-untuk-promosi.html |
+| 5 | 2026-11-26 | jilid skripsi rawamangun | Jilid Skripsi Hard Cover Rawamangun: Rapi, Kuat, Siap Sidang | Published | https://blog.dicetaksaja.id/2026/11/blog-post_320.html |
+| 6 | 2026-11-27 | scan dokumen rawamangun | Scan Dokumen Rawamangun A4/F4: Cepat, Jelas, Kirim via WA/Email | Published | https://blog.dicetaksaja.id/2026/11/scan-dokumen-rawamangun-a4f4-cepat.html |
+| 7 | 2026-11-28 | cetak poster a3+ rawamangun | Cetak Poster A3+ Rawamangun untuk Event, Toko, dan Kampanye | Published | https://blog.dicetaksaja.id/2026/11/cetak-poster-a3-rawamangun-untuk-event.html |
+| 8 | 2026-11-29 | cetak kartu nama rawamangun | Cetak Kartu Nama Rawamangun Mulai Rp35.000: Profesional & Tajam | Published | https://blog.dicetaksaja.id/2026/11/blog-post_585.html |
+| 9 | 2026-11-30 | cetak booklet rawamangun | Cetak Booklet Rawamangun: Company Profile, Katalog, & Presentasi | Published | https://blog.dicetaksaja.id/2026/11/cetak-booklet-rawamangun-company.html |
+| 10 | 2026-12-01 | cetak buku yasin rawamangun | Cetak Buku Yasin Rawamangun: Hardcover/Softcover untuk Pengajian | Published | https://blog.dicetaksaja.id/2026/11/cetak-buku-yasin-rawamangun.html |
 | 11 | 2026-12-02 | cetak undangan rawamangun | Cetak Undangan Rawamangun: Pernikahan & Acara Custom | Planned | - |
 | 12 | 2026-12-03 | cetak stiker label produk rawamangun | Cetak Stiker Label Produk UMKM Rawamangun: Tahan & Custom | Planned | - |
 | 13 | 2026-12-04 | cetak banner event rawamangun | Cetak Banner Event Rawamangun: Cepat untuk Seminar & Pameran | Planned | - |
