@@ -8,7 +8,7 @@ Target: **1 artikel/hari selama 30 hari** untuk memperkuat SEO lokal Rawamangun/
 |---:|---|---|---|---|---|
 | 1 | 2026-11-22 | fotocopy murah rawamangun 24 jam | Fotocopy Murah Rawamangun 24 Jam: Cepat, Rapi, Antar-Jemput | Published | https://blog.dicetaksaja.id/2026/11/blog-post_950.html |
 | 2 | 2026-11-23 | percetakan rawamangun jakarta timur | Percetakan Rawamangun Jakarta Timur: Cetak Cepat, Bisa WA 24 Jam | Published | https://blog.dicetaksaja.id/2026/11/percetakan-rawamangun-jakarta-timur.html |
-| 3 | 2026-11-24 | print a3+ rawamangun | Print A3+ Rawamangun Mulai Rp1.750: Poster, Denah, & Gambar Teknis | Planned | - |
+| 3 | 2026-11-24 | print a3+ rawamangun | Print A3+ Rawamangun Mulai Rp1.750: Poster, Denah, & Gambar Teknis | Published | https://blog.dicetaksaja.id/2026/11/print-a3-rawamangun-mulai-rp1750-poster.html |
 | 4 | 2026-11-25 | cetak brosur rawamangun | Cetak Brosur Rawamangun untuk Promosi UMKM: Murah, Rapi, Cepat | Planned | - |
 | 5 | 2026-11-26 | jilid skripsi rawamangun | Jilid Skripsi Hard Cover Rawamangun: Rapi, Kuat, Siap Sidang | Planned | - |
 | 6 | 2026-11-27 | scan dokumen rawamangun | Scan Dokumen Rawamangun A4/F4: Cepat, Jelas, Kirim via WA/Email | Planned | - |
