@@ -1,63 +1,56 @@
-# Rencana Artikel Harian DicetakSaja
+# Rencana Konten 30 Hari DicetakSaja
 
-Target: **1 artikel/hari**, fokus kata kunci lokal Rawamangun/Jakarta Timur + niat order WA.
+Target: **1 artikel/hari selama 30 hari** untuk memperkuat SEO lokal Rawamangun/Jakarta Timur dan konversi WhatsApp.
 
-## Prioritas kata kunci (berdasarkan layanan & intent)
+## Kalender 30 Hari
 
-1. fotocopy rawamangun 24 jam / fotocopy murah rawamangun
-2. percetakan rawamangun jakarta timur
-3. cetak buku umroh rawamangun
-4. print A3+ rawamangun / digital printing rawamangun
-5. cetak spanduk rawamangun
-6. cetak kartu nama rawamangun
-7. cutting sticker rawamangun
-8. cetak id card pvc rawamangun
-9. cetak paperbag rawamangun
-10. cetak buku novel rawamangun
-11. jilid buku rawamangun / jilid skripsi rawamangun
-12. scan dokumen rawamangun A0-A4
-13. cetak brosur/flyer rawamangun
-14. cetak banner event rawamangun
-15. cetak stiker label produk UMKM rawamangun
-16. cetak buku yasin rawamangun
-17. cetak undangan rawamangun
-18. cetak poster A3+ rawamangun
-19. cetak booklet rawamangun
-20. cetak buku tahunan sekolah rawamangun
-21. cetak nota/kwitansi NCR rawamangun
-22. cetak kop surat rawamangun
-23. cetak amplop perusahaan rawamangun
-24. cetak map/folder rawamangun
-25. cetak sertifikat rawamangun
-26. cetak packaging dus kecil UMKM rawamangun
-27. cetak stiker vinyl tahan air rawamangun
-28. cetak kartu member PVC rawamangun
-29. cetak lanyard/id card set rawamangun
-30. fotocopy dokumen kantor rawamangun antar jemput
+| Hari | Tanggal | Kata kunci utama | Judul | Status | URL |
+|---:|---|---|---|---|---|
+| 1 | 2026-11-22 | fotocopy murah rawamangun 24 jam | Fotocopy Murah Rawamangun 24 Jam: Cepat, Rapi, Antar-Jemput | Published | https://blog.dicetaksaja.id/2026/11/blog-post_950.html |
+| 2 | 2026-11-23 | percetakan rawamangun jakarta timur | Percetakan Rawamangun Jakarta Timur: Cetak Cepat, Bisa WA 24 Jam | Published | https://blog.dicetaksaja.id/2026/11/percetakan-rawamangun-jakarta-timur.html |
+| 3 | 2026-11-24 | print a3+ rawamangun | Print A3+ Rawamangun Mulai Rp1.750: Poster, Denah, & Gambar Teknis | Planned | - |
+| 4 | 2026-11-25 | cetak brosur rawamangun | Cetak Brosur Rawamangun untuk Promosi UMKM: Murah, Rapi, Cepat | Planned | - |
+| 5 | 2026-11-26 | jilid skripsi rawamangun | Jilid Skripsi Hard Cover Rawamangun: Rapi, Kuat, Siap Sidang | Planned | - |
+| 6 | 2026-11-27 | scan dokumen rawamangun | Scan Dokumen Rawamangun A4/F4: Cepat, Jelas, Kirim via WA/Email | Planned | - |
+| 7 | 2026-11-28 | cetak poster a3+ rawamangun | Cetak Poster A3+ Rawamangun untuk Event, Toko, dan Kampanye | Planned | - |
+| 8 | 2026-11-29 | cetak kartu nama rawamangun | Cetak Kartu Nama Rawamangun Mulai Rp35.000: Profesional & Tajam | Planned | - |
+| 9 | 2026-11-30 | cetak booklet rawamangun | Cetak Booklet Rawamangun: Company Profile, Katalog, & Presentasi | Planned | - |
+| 10 | 2026-12-01 | cetak buku yasin rawamangun | Cetak Buku Yasin Rawamangun: Hardcover/Softcover untuk Pengajian | Planned | - |
+| 11 | 2026-12-02 | cetak undangan rawamangun | Cetak Undangan Rawamangun: Pernikahan & Acara Custom | Planned | - |
+| 12 | 2026-12-03 | cetak stiker label produk rawamangun | Cetak Stiker Label Produk UMKM Rawamangun: Tahan & Custom | Planned | - |
+| 13 | 2026-12-04 | cetak banner event rawamangun | Cetak Banner Event Rawamangun: Cepat untuk Seminar & Pameran | Planned | - |
+| 14 | 2026-12-05 | cetak buku tahunan sekolah rawamangun | Cetak Buku Tahunan Sekolah Rawamangun: Desain Rapi, Jilid Kuat | Planned | - |
+| 15 | 2026-12-06 | cetak nota ncr rawamangun | Cetak Nota NCR Rawamangun: Kwitansi & Nota 2-3 Rangkap | Planned | - |
+| 16 | 2026-12-07 | cetak kop surat rawamangun | Cetak Kop Surat Rawamangun: Identitas Kantor Profesional | Planned | - |
+| 17 | 2026-12-08 | cetak amplop perusahaan rawamangun | Cetak Amplop Perusahaan Rawamangun: Logo Jelas & Rapi | Planned | - |
+| 18 | 2026-12-09 | cetak map folder rawamangun | Cetak Map Folder Rawamangun untuk Dokumen Kantor & Presentasi | Planned | - |
+| 19 | 2026-12-10 | cetak sertifikat rawamangun | Cetak Sertifikat Rawamangun: Seminar, Pelatihan, & Penghargaan | Planned | - |
+| 20 | 2026-12-11 | cetak menu restoran rawamangun | Cetak Buku Menu Restoran Rawamangun: Tahan & Elegan | Planned | - |
+| 21 | 2026-12-12 | cetak kartu member pvc rawamangun | Cetak Kartu Member PVC Rawamangun: Barcode & Desain Custom | Planned | - |
+| 22 | 2026-12-13 | cetak lanyard rawamangun | Cetak Lanyard Rawamangun: Paket ID Card & Tali Event/Kantor | Planned | - |
+| 23 | 2026-12-14 | cetak stiker vinyl rawamangun | Cetak Stiker Vinyl Tahan Air Rawamangun untuk Outdoor & Produk | Planned | - |
+| 24 | 2026-12-15 | cetak packaging umkm rawamangun | Cetak Packaging UMKM Rawamangun: Box, Sleeve, & Label Produk | Planned | - |
+| 25 | 2026-12-16 | cetak flyer promosi rawamangun | Cetak Flyer Promosi Rawamangun: Cepat Sebar untuk Toko & Event | Planned | - |
+| 26 | 2026-12-17 | cetak kalender rawamangun | Cetak Kalender Meja/Dinding Rawamangun untuk Branding Perusahaan | Planned | - |
+| 27 | 2026-12-18 | fotocopy warna rawamangun | Fotocopy Warna Rawamangun: Hasil Tajam untuk Materi & Presentasi | Planned | - |
+| 28 | 2026-12-19 | print dokumen online rawamangun | Print Dokumen Online Rawamangun: Kirim File WA, Ambil/Antar | Planned | - |
+| 29 | 2026-12-20 | cetak undangan pernikahan rawamangun | Cetak Undangan Pernikahan Rawamangun: Elegan, Cepat, Custom | Planned | - |
+| 30 | 2026-12-21 | percetakan 24 jam jakarta timur | Percetakan 24 Jam Jakarta Timur Rawamangun: Solusi Cetak Urgent | Planned | - |
 
-## Template artikel (SEO lokal)
+## Aturan produksi harian
 
-- **Judul H1**: kata kunci utama + Rawamangun/Jakarta Timur.
-- **Intro 80-120 kata**: masalah + solusi + CTA WA.
-- **H2**: layanan/harga mulai, pilihan bahan/finishing, waktu pengerjaan, alasan pilih DicetakSaja.
-- **FAQ 3-5 pertanyaan**: harga, lama pengerjaan, bisa antar jemput, file apa yang diterima.
-- **CTA**: WA `https://wa.me/6281213053872` dengan teks pra-isi.
-- **Internal link**: ke landing page `https://dicetaksaja.id/` dan 2-3 artikel terkait.
-- **Label Blogger**: `Rawamangun`, `Jakarta Timur`, `DicetakSaja`, + label layanan.
-- **Permalink custom**: pendek, kata kunci, huruf kecil, strip.
-- **Deskripsi penelusuran**: 140-160 karakter, ada kata kunci + WA/Rawamangun.
-- **Harga**: hanya cantumkan harga final yang sudah dikonfirmasi; lainnya “mulai dari/konfirmasi WA”.
+- **1 artikel/hari**. Publish konsisten (pagi/siang WIB).
+- Wajib: kata kunci lokal di judul/H1, intro 80-120 kata, H2 layanan/harga/finishing/waktu/alasan, FAQ 3-5, CTA WA, 2-3 internal link, label `Rawamangun, Jakarta Timur, DicetakSaja, <layanan>`, deskripsi penelusuran 140-160 karakter, permalink custom pendek.
+- **Harga final yang boleh disebut eksplisit**: Fotocopy A4 mulai Rp200/lembar, Buku Umroh mulai Rp12.000, Print Digital A3+ mulai Rp1.750, Kartu Nama mulai Rp35.000. Harga lain: “mulai dari/konfirmasi WA”.
+- **Tanpa testimoni palsu**. Testimoni hanya dengan izin.
+- Setelah publish: update `index.html` + `sitemap.xml` + `README.md`, commit GitHub, tunggu Pages build, request indexing GSC.
 
-## Checklist publish harian
+## Checklist harian
 
-1. Riset kata kunci/intent cepat (GSC query, autocomplete, kompetitor).
-2. Tulis draft HTML.
-3. Publish di Blogger (HTML mode), set permalink, label, deskripsi penelusuran.
-4. Verifikasi live URL, cek tautan WA/internal/HTTPS.
-5. Tambahkan URL ke `sitemap.xml` dan section artikel di `index.html`.
-6. Commit + push via GitHub web UI, tunggu Pages build.
-7. Request indexing di GSC (URL Inspection) bila tersedia.
-
-## Status
-
-- 2026-11-22: **Fotocopy Murah Rawamangun 24 Jam** — draft disiapkan (lihat `blog-drafts/`). Perlu dipublish ke Blogger saat sesi aktif.
+1. Konfirmasi kata kunci & intent.
+2. Tulis draft HTML (`blog-drafts/YYYY-MM-DD-slug.html`).
+3. Publish di Blogger (HTML), set permalink/label/deskripsi.
+4. Verifikasi URL live, WA link, internal link, HTTPS.
+5. Update landing + sitemap + README.
+6. Commit & build Pages.
+7. Request indexing GSC.
