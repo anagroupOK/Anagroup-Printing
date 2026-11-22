@@ -62,7 +62,8 @@ Catatan:
 - ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Pembaruan terbaru sudah tayang, jadi Google akan mengambil versi ini lewat sitemap pada crawl berikutnya.
 - ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
 - ✅ Semua 42 foto hasil cetak asli sudah terpasang di galeri (7 kolom × 6 baris, total ±508 KB).
-- ⏳ Masih perlu: testimoni berizin dan konfirmasi harga final sebelum tayang permanen.
+- ✅ Harga final mulai sudah dipasang: fotocopy A4 **Rp200/lembar**, buku umroh **Rp12.000/buku**, print digital A3+ **Rp1.750/lembar**, kartu nama **Rp35.000**.
+- ⏳ Masih perlu: testimoni berizin dan konfirmasi harga final untuk layanan lainnya sebelum tayang permanen.
 
 ### Galeri foto & slot testimoni
 
@@ -119,7 +120,7 @@ Untuk Netlify/Vercel, upload folder ini lalu ikuti instruksi DNS yang muncul di 
 
 - [ ] Ganti semua kemunculan `dicetaksaja.id` di `index.html` (canonical, og:url, JSON-LD) kalau nama domain berubah.
 - [ ] Sesuaikan nomor WhatsApp `6281213053872` di semua tombol WA (tips: cari "wa.me/").
-- [ ] Cek lagi estimasi harga (`Rp150`, `Rp250`) dengan daftar harga terbaru.
+- [x] Pasang harga final yang sudah dikonfirmasi: fotocopy A4 mulai Rp200, buku umroh mulai Rp12.000, print digital A3+ mulai Rp1.750, kartu nama mulai Rp35.000. Harga scan (`Rp250/lembar`) masih mengikuti estimasi lama.
 - [ ] Ganti testimoni dengan izin/atribusi pelanggan bila diperlukan.
 - [x] Pasang 42 foto hasil cetak asli di `#galeri` (grid 7×6; widget hero tetap CSS agar ringan).
 - [ ] Tambahkan testimoni berizin dengan menduplikat blok `.testi-card`.
