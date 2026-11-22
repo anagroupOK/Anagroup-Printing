@@ -50,9 +50,9 @@ Catatan:
 - ✅ DNS sudah ditambahkan di DomaiNesia (4 A + 3 CNAME) dan sudah resolve global.
 - ✅ **Situs LIVE**: https://dicetaksaja.id/ (HTTP 200, HTTPS 200, `www` ikut ke root).
 - ✅ GitHub Pages: **DNS check successful**, **Enforce HTTPS** sudah dicentang.
-- ✅ Blogger: `http://blog.dicetaksaja.id/` sudah aktif (HTTP 200, judul blog tampil). HTTPS Blogger masih **"Tidak Ada"** — sertifikat biasanya diprovision otomatis dalam 24 jam setelah custom domain aktif.
+- ✅ Blogger: `https://blog.dicetaksaja.id/` sudah aktif (HTTPS 200). `http://` otomatis dialihkan ke HTTPS via 301. Semua tautan blog di landing page dan sitemap sudah memakai HTTPS.
 
-**Progres SEO (21 Nov 2026):**
+**Progres SEO (22 Nov 2026):**
 - ✅ Title + meta description + H1 dioptimalkan untuk kata kunci lokal dan layanan: *cetak buku umroh/umrah, buku novel, buku tahunan sekolah (BTS), booklet, spanduk vinyl, cutting sticker, paperbag, ID card PVC, fotocopy murah, digital printing A3+, scan A0–A4, kaos, Rawamangun Jakarta Timur, order WA 24 jam*.
 - ✅ 17 kartu layanan, 13 FAQ, dan 14 entri `OfferCatalog`; 11 tautan internal ke artikel blog yang sudah kaya kata kunci (buku umroh, Yasin, agenda, kaos, buku menu, digital printing, spanduk, cutting sticker, buku novel, paperbag, ID card).
 - ✅ Strategi kata kunci memakai variasi ejaan **`umroh`** dan **`umrah`**, serta istilah **`BTS`** diperjelas sebagai **buku tahunan sekolah**. Tidak memakai meta `keywords` (diabaikan Google) — fokus ke search intent, konten, tautan internal, dan schema.
