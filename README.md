@@ -51,6 +51,7 @@ Catatan:
 - ✅ **Situs LIVE**: https://dicetaksaja.id/ (HTTP 200, HTTPS 200, `www` ikut ke root).
 - ✅ GitHub Pages: **DNS check successful**, **Enforce HTTPS** sudah dicentang.
 - ✅ Blogger: `https://blog.dicetaksaja.id/` sudah aktif (HTTPS 200). `http://` otomatis dialihkan ke HTTPS via 301. Semua tautan blog di landing page dan sitemap sudah memakai HTTPS.
+- ✅ Tautan internal di 5 artikel baru (spanduk, cutting sticker, novel, paperbag, ID card) sudah dikonversi ke HTTPS dan terverifikasi live (0 tautan `http://blog.dicetaksaja.id`). Sisa `http://` di halaman artikel berasal dari namespace schema.org/W3C dan breadcrumb bawaan Blogger, bukan tautan konten.
 
 **Progres SEO (22 Nov 2026):**
 - ✅ Title + meta description + H1 dioptimalkan untuk kata kunci lokal dan layanan: *cetak buku umroh/umrah, buku novel, buku tahunan sekolah (BTS), booklet, spanduk vinyl, cutting sticker, paperbag, ID card PVC, fotocopy murah, digital printing A3+, scan A0–A4, kaos, Rawamangun Jakarta Timur, order WA 24 jam*.
