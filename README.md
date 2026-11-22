@@ -53,11 +53,11 @@ Catatan:
 - ✅ Blogger: `http://blog.dicetaksaja.id/` sudah aktif (HTTP 200, judul blog tampil). HTTPS Blogger masih **"Tidak Ada"** — sertifikat biasanya diprovision otomatis dalam 24 jam setelah custom domain aktif.
 
 **Progres SEO (20 Nov 2026):**
-- ✅ Title + meta description + H1 dioptimalkan untuk kata kunci lokal dan layanan: *cetak buku umroh/umrah, buku tahunan sekolah (BTS), booklet, fotocopy murah, digital printing A3+, scan A0–A4, kaos, Rawamangun Jakarta Timur, order WA 24 jam*.
-- ✅ 12 kartu layanan, 8 FAQ, dan 9 entri `OfferCatalog`; 6 tautan internal ke artikel blog yang sudah kaya kata kunci (buku umroh, Yasin, agenda, kaos, buku menu, digital printing).
+- ✅ Title + meta description + H1 dioptimalkan untuk kata kunci lokal dan layanan: *cetak buku umroh/umrah, buku novel, buku tahunan sekolah (BTS), booklet, spanduk vinyl, cutting sticker, paperbag, ID card PVC, fotocopy murah, digital printing A3+, scan A0–A4, kaos, Rawamangun Jakarta Timur, order WA 24 jam*.
+- ✅ 17 kartu layanan, 13 FAQ, dan 14 entri `OfferCatalog`; 6 tautan internal ke artikel blog yang sudah kaya kata kunci (buku umroh, Yasin, agenda, kaos, buku menu, digital printing).
 - ✅ Strategi kata kunci memakai variasi ejaan **`umroh`** dan **`umrah`**, serta istilah **`BTS`** diperjelas sebagai **buku tahunan sekolah**. Tidak memakai meta `keywords` (diabaikan Google) — fokus ke search intent, konten, tautan internal, dan schema.
 - ✅ `hreflang="id-ID"` + `x-default`, meta geo, `og:locale`, `max-image-preview:large`.
-- ✅ Structured data `@graph`: `LocalBusiness` + `WebSite` + `FAQPage` (8 FAQ, teksnya identik dengan FAQ yang terlihat). Alamat diverifikasi dari Google Maps listing (`Jalan Balai Pustaka Baru, RW 07`, 13220).
+- ✅ Structured data `@graph`: `LocalBusiness` + `WebSite` + `FAQPage` (13 FAQ, teksnya identik dengan FAQ yang terlihat). `OfferCatalog` berisi 14 layanan, termasuk 5 penambahan terbaru. Alamat diverifikasi dari Google Maps listing (`Jalan Balai Pustaka Baru, RW 07`, 13220).
 - ✅ `robots.txt` + `sitemap.xml` (200, 1 URL).
 - ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Pembaruan terbaru sudah tayang, jadi Google akan mengambil versi ini lewat sitemap pada crawl berikutnya.
 - ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
@@ -121,7 +121,7 @@ Untuk Netlify/Vercel, upload folder ini lalu ikuti instruksi DNS yang muncul di 
 - [ ] Sesuaikan nomor WhatsApp `6281213053872` di semua tombol WA (tips: cari "wa.me/").
 - [ ] Cek lagi estimasi harga (`Rp150`, `Rp250`) dengan daftar harga terbaru.
 - [ ] Ganti testimoni dengan izin/atribusi pelanggan bila diperlukan.
-- [x] Isi 6 slot foto hasil cetak asli di `#galeri` (sudah terpasang; widget hero tetap CSS agar ringan).
+- [x] Pasang 42 foto hasil cetak asli di `#galeri` (grid 7×6; widget hero tetap CSS agar ringan).
 - [ ] Tambahkan testimoni berizin dengan menduplikat blok `.testi-card`.
 - [ ] Uji di HP: menu, tombol WA, dan kecepatan (Lighthouse).
 
