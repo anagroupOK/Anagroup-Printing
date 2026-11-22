@@ -61,12 +61,13 @@ Catatan:
 - ✅ `robots.txt` + `sitemap.xml` (200, 1 URL).
 - ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Pembaruan terbaru sudah tayang, jadi Google akan mengambil versi ini lewat sitemap pada crawl berikutnya.
 - ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
-- ✅ Foto hasil cetak asli sudah terpasang di galeri (6 thumbnail, total ±81 KB).
+- ✅ Semua 42 foto hasil cetak asli sudah terpasang di galeri (7 kolom × 6 baris, total ±508 KB).
 - ⏳ Masih perlu: testimoni berizin dan konfirmasi harga final sebelum tayang permanen.
 
 ### Galeri foto & slot testimoni
 
-- **Galeri `#galeri`** sudah berisi 6 foto asli dari `D:\Hasil Produk`, dioptimasi jadi **180×320 px thumbnail, ±12–18 KB per file** (total ±81 KB), format JPG, `loading="lazy"`, dengan `alt` deskriptif. Tampilannya berupa **6 baris ringkas** (thumbnail 54×54 px + caption), bukan grid besar.
+- **Galeri `#galeri`** sudah berisi **42 foto asli** dari `D:\Hasil Produk`, dioptimasi jadi sisi terpanjang **320 px** (142–247×320 px, ±8–19 KB per file, total **±508 KB**), format JPG, `loading="lazy"`, dengan `alt` deskriptif.
+- Tampilannya: grid **7 kolom × 6 baris** di desktop, caption tipis di bawah foto, dan hover zoom halus. Responsif: 5 kolom (≤900 px), 4 kolom (≤860 px), 3 kolom (≤560 px).
 - Pemetaan file:
   | File di web | Sumber asli |
   | --- | --- |
@@ -76,7 +77,7 @@ Catatan:
   | `images/cetak-jilid-buku.jpg` | `Cetak dan JIlid Buku (2).jpg` |
   | `images/print-digital-a3plus.jpg` | `Print Digital A3+ (2).jpg` |
   | `images/cutting-sticker.jpg` | `Cutting Sticker (2).jpg` |
-- Kalau mau ganti foto: utility PowerShell ada di `AppData\Local\Temp\opencode\optimize-gallery.ps1` (ubah daftar `$map`, lalu jalankan). Setting saat ini: `$maxSide = 320`, `$quality = 72` untuk thumbnail galeri. Foto sumber asli tetap ada di `D:\Hasil Produk`.
+- Kalau mau ganti/tambah foto: jalankan utility `AppData\Local\Temp\opencode\build-full-gallery.ps1`. Script ini membaca **semua** file di `D:\Hasil Produk`, membuat thumbnail (`$maxSide = 320`, `$quality = 72`), lalu menulis ulang blok `.gallery-grid` di `index.html`. Foto sumber asli tetap ada di `D:\Hasil Produk`.
 - **Testimoni:** duplikat blok `<figure class="testi-card">` di section `#testimoni` untuk tiap testimoni baru. Format singkat: *inisial/nama · jenis layanan · satu kalimat pengalaman*. Slot berizin sudah disiapkan dengan tombol WA di bawah kartu testimoni. **Selalu minta izin dulu** sebelum memasang nama atau kutipan pelanggan.
 
 ### Rekomendasi struktur

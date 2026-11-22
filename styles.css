@@ -473,34 +473,26 @@ button { font: inherit; }
 .text-link { display: inline-flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 700; color: var(--brand-ink); border-bottom: 1px solid rgba(201,61,18,.35); padding-bottom: 3px; }
 .text-link:hover { border-color: var(--brand-dark); }
 
-/* Gallery: 6 baris ringkas */
-.gallery-grid { display: grid; grid-template-columns: 1fr; gap: 8px; max-width: 660px; }
+/* Gallery: 42 foto, 7 kolom x 6 baris */
+.gallery-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
 .photo-slot {
-  display: flex; align-items: center; gap: 13px;
-  margin: 0; padding: 9px 13px;
-  border: 1px solid var(--line); border-radius: 14px;
-  background: #fffdf9;
-  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-}
-.photo-slot:hover { transform: translateY(-1px); border-color: #ffc4aa; box-shadow: var(--shadow-sm); }
-.photo-img {
-  flex: 0 0 auto;
-  width: 54px; height: 54px; aspect-ratio: 1 / 1;
-  object-fit: cover; object-position: center 18%;
+  position: relative; margin: 0; overflow: hidden;
+  aspect-ratio: 3 / 4;
   border: 1px solid var(--line); border-radius: 10px;
   background: #fff8f4;
 }
+.photo-img {
+  display: block; width: 100%; height: 100%;
+  object-fit: cover; object-position: center 15%;
+  transition: transform .25s ease;
+}
+.photo-slot:hover .photo-img { transform: scale(1.05); }
 .photo-slot figcaption {
-  margin: 0; display: flex; align-items: center; gap: 8px;
-  font-size: .82rem; font-weight: 700; color: var(--ink-soft);
-}
-.photo-slot figcaption::before {
-  content: ""; width: 6px; height: 6px; border-radius: 50%;
-  background: var(--brand); flex: 0 0 auto;
-}
-.photo-slot figcaption::after {
-  content: "Hasil cetak asli"; margin-left: auto;
-  font-size: .64rem; font-weight: 600; color: var(--muted);
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 18px 7px 6px;
+  background: linear-gradient(transparent, rgba(24, 20, 18, .82));
+  color: #fff; font-size: .58rem; font-weight: 700; line-height: 1.2;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
 /* Testimonials */
@@ -616,6 +608,10 @@ button { font: inherit; }
   .footer-grid .footer-col:last-child { grid-column: 2 / -1; }
 }
 
+@media (max-width: 900px) {
+  .gallery-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+
 @media (max-width: 860px) {
   .main-menu {
     position: absolute; top: 100%; left: 0; right: 0;
@@ -643,6 +639,7 @@ button { font: inherit; }
   .section-head { grid-template-columns: 1fr; gap: 14px; }
   .section-head > p { max-width: 620px; }
   .blog-link-grid { grid-template-columns: repeat(2, 1fr); }
+  .gallery-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .price-grid, .testi-grid { grid-template-columns: 1fr; }
   .testi-slot { flex-direction: column; align-items: flex-start; }
   .price-card.featured { transform: none; }
@@ -662,8 +659,8 @@ button { font: inherit; }
   .hero-points { gap: 12px 18px; }
   .services-grid { grid-template-columns: 1fr; }
   .service-card p { min-height: 0; }
-  .photo-img { width: 46px; height: 46px; }
-  .photo-slot figcaption::after { display: none; }
+  .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .photo-slot figcaption { font-size: .52rem; padding: 12px 5px 4px; }
   .blog-link-grid { grid-template-columns: 1fr; }
   .testi-slot { padding: 24px 20px; }
   .steps { grid-template-columns: 1fr; }
