@@ -478,7 +478,7 @@ button { font: inherit; }
 .photo-slot { margin: 0; }
 .photo-frame {
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
-  aspect-ratio: 4 / 3; padding: 18px; text-align: center;
+  aspect-ratio: 3 / 4; padding: 18px; text-align: center;
   border: 1.5px dashed #ffc4aa; border-radius: var(--radius);
   background: linear-gradient(160deg, #fff8f4, #fffdf9);
   color: var(--brand-ink);
@@ -486,7 +486,7 @@ button { font: inherit; }
 .photo-frame .icon { width: 34px; height: 34px; padding: 7px; border-radius: 12px; background: #fff1ea; color: var(--brand); }
 .photo-frame span { font-size: .74rem; font-weight: 800; letter-spacing: .06em; }
 .photo-frame small { font-size: .66rem; color: var(--muted); }
-.photo-img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow-sm); }
+.photo-img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: contain; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(160deg, #fff8f4, #fffdf9); }
 .photo-slot figcaption { margin-top: 10px; font-size: .82rem; font-weight: 700; color: var(--ink-soft); }
 
 /* Testimonials */

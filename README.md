@@ -61,17 +61,22 @@ Catatan:
 - ✅ `robots.txt` + `sitemap.xml` (200, 1 URL).
 - ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Pembaruan terbaru sudah tayang, jadi Google akan mengambil versi ini lewat sitemap pada crawl berikutnya.
 - ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
-- ⏳ Perlu data nyata: foto hasil cetak, testimoni berizin, dan konfirmasi harga final sebelum tayang permanen.
+- ✅ Foto hasil cetak asli sudah terpasang di galeri (6 foto, total ±596 KB).
+- ⏳ Masih perlu: testimoni berizin dan konfirmasi harga final sebelum tayang permanen.
 
-### Slot foto & testimoni (siap diisi)
+### Galeri foto & slot testimoni
 
-- **Galeri `#galeri`** berisi 6 placeholder. Cara pasang foto: ganti seluruh `<div class="photo-frame" ...>...</div>` dengan:
-  ```html
-  <img class="photo-img" src="images/NAMA-FILE.jpg" alt="Deskripsi hasil cetak asli" loading="lazy" width="800" height="600">
-  ```
-- Nama file yang sudah disiapkan di caption: `buku-umroh.jpg`, `buku-tahunan-sekolah.jpg`, `booklet-katalog.jpg`, `cetak-jilid-buku.jpg`, `fotocopy-scan.jpg`, `kaos-sablon.jpg`.
-- Ukuran ideal: minimal **800×600 px**, JPG/WEBP, dikompres **<200 KB per foto**. Utamakan foto asli dengan pencahayaan bagus dan tanpa watermark.
-- Upload folder `images/` ke repo GitHub (branch `main`) bersama `index.html`.
+- **Galeri `#galeri`** sudah berisi 6 foto asli dari `D:\Hasil Produk`, dioptimasi jadi **619×1100 px, <200 KB per file**, format JPG, `loading="lazy"`, dengan `alt` deskriptif.
+- Pemetaan file:
+  | File di web | Sumber asli |
+  | --- | --- |
+  | `images/buku-umroh.jpg` | `Cetak Buku Umroh (4).jpg` |
+  | `images/buku-tahunan-sekolah.jpg` | `Cetak Buku Tahunan Sekolah (2).jpg` |
+  | `images/booklet-katalog.jpg` | `Cetak Booklet (6).jpg` |
+  | `images/cetak-jilid-buku.jpg` | `Cetak dan JIlid Buku (2).jpg` |
+  | `images/print-digital-a3plus.jpg` | `Print Digital A3+ (2).jpg` |
+  | `images/cutting-sticker.jpg` | `Cutting Sticker (2).jpg` |
+- Kalau mau ganti foto: utility PowerShell ada di `AppData\Local\Temp\opencode\optimize-gallery.ps1` (ubah daftar `$map`, lalu jalankan). Ukuran ideal tetap **minimal 800×600 px**, JPG/WEBP, **<200 KB**.
 - **Testimoni:** duplikat blok `<figure class="testi-card">` di section `#testimoni` untuk tiap testimoni baru. Format singkat: *inisial/nama · jenis layanan · satu kalimat pengalaman*. Slot berizin sudah disiapkan dengan tombol WA di bawah kartu testimoni. **Selalu minta izin dulu** sebelum memasang nama atau kutipan pelanggan.
 
 ### Rekomendasi struktur
@@ -115,7 +120,7 @@ Untuk Netlify/Vercel, upload folder ini lalu ikuti instruksi DNS yang muncul di 
 - [ ] Sesuaikan nomor WhatsApp `6281213053872` di semua tombol WA (tips: cari "wa.me/").
 - [ ] Cek lagi estimasi harga (`Rp150`, `Rp250`) dengan daftar harga terbaru.
 - [ ] Ganti testimoni dengan izin/atribusi pelanggan bila diperlukan.
-- [ ] Isi 6 slot foto hasil cetak asli di `#galeri` (placeholder sudah disiapkan; widget hero tetap CSS agar ringan).
+- [x] Isi 6 slot foto hasil cetak asli di `#galeri` (sudah terpasang; widget hero tetap CSS agar ringan).
 - [ ] Tambahkan testimoni berizin dengan menduplikat blok `.testi-card`.
 - [ ] Uji di HP: menu, tombol WA, dan kecepatan (Lighthouse).
 
