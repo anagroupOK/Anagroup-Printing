@@ -61,12 +61,12 @@ Catatan:
 - ✅ `robots.txt` + `sitemap.xml` (200, 1 URL).
 - ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Pembaruan terbaru sudah tayang, jadi Google akan mengambil versi ini lewat sitemap pada crawl berikutnya.
 - ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
-- ✅ Foto hasil cetak asli sudah terpasang di galeri (6 foto, total ±596 KB).
+- ✅ Foto hasil cetak asli sudah terpasang di galeri (6 thumbnail, total ±81 KB).
 - ⏳ Masih perlu: testimoni berizin dan konfirmasi harga final sebelum tayang permanen.
 
 ### Galeri foto & slot testimoni
 
-- **Galeri `#galeri`** sudah berisi 6 foto asli dari `D:\Hasil Produk`, dioptimasi jadi **619×1100 px, <200 KB per file**, format JPG, `loading="lazy"`, dengan `alt` deskriptif.
+- **Galeri `#galeri`** sudah berisi 6 foto asli dari `D:\Hasil Produk`, dioptimasi jadi **180×320 px thumbnail, ±12–18 KB per file** (total ±81 KB), format JPG, `loading="lazy"`, dengan `alt` deskriptif. Tampilannya berupa **6 baris ringkas** (thumbnail 54×54 px + caption), bukan grid besar.
 - Pemetaan file:
   | File di web | Sumber asli |
   | --- | --- |
@@ -76,7 +76,7 @@ Catatan:
   | `images/cetak-jilid-buku.jpg` | `Cetak dan JIlid Buku (2).jpg` |
   | `images/print-digital-a3plus.jpg` | `Print Digital A3+ (2).jpg` |
   | `images/cutting-sticker.jpg` | `Cutting Sticker (2).jpg` |
-- Kalau mau ganti foto: utility PowerShell ada di `AppData\Local\Temp\opencode\optimize-gallery.ps1` (ubah daftar `$map`, lalu jalankan). Ukuran ideal tetap **minimal 800×600 px**, JPG/WEBP, **<200 KB**.
+- Kalau mau ganti foto: utility PowerShell ada di `AppData\Local\Temp\opencode\optimize-gallery.ps1` (ubah daftar `$map`, lalu jalankan). Setting saat ini: `$maxSide = 320`, `$quality = 72` untuk thumbnail galeri. Foto sumber asli tetap ada di `D:\Hasil Produk`.
 - **Testimoni:** duplikat blok `<figure class="testi-card">` di section `#testimoni` untuk tiap testimoni baru. Format singkat: *inisial/nama · jenis layanan · satu kalimat pengalaman*. Slot berizin sudah disiapkan dengan tombol WA di bawah kartu testimoni. **Selalu minta izin dulu** sebelum memasang nama atau kutipan pelanggan.
 
 ### Rekomendasi struktur
