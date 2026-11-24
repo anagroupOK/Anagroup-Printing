@@ -124,7 +124,7 @@ if (-not $SkipArticles -and $urls.Count -gt 0) {
     foreach ($u in $urls) {
         if ($u -notmatch "blog\.dicetaksaja\.id") { continue }
         $slug = ($u -split "/")[-1]
-        $r = Get-Url $u
+        $r = Get-Url ($u + "?nocache=" + (Get-Date -Format yyyyMMddHHmmss))
         if ($r.Status -ne 200) {
             $bad.Add("HTTP $($r.Status) - $slug")
             continue

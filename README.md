@@ -10,6 +10,12 @@ Landing page statis (HTML + CSS + JS murni) untuk brand **DicetakSaja / AnaGroup
 | `styles.css` | Seluruh gaya/tampilan responsif |
 | `script.js` | Menu mobile, scroll reveal, FAQ accordion, tahun footer |
 | `CNAME` | Nama domain custom untuk GitHub Pages (ubah kalau pilih nama lain) |
+| `sitemap.xml` | Daftar 22 URL yang disubmit ke Google Search Console |
+| `content-plan.md` | Kalender 30 artikel harian + aturan produksi |
+| `blog-drafts/` | Draft HTML artikel harian #1–#18 |
+| `SEO-HEALTH.md` | Audit SEO, posisi di Google, prioritas page 1, dan cara monitoring |
+| `seo-monitor.ps1` | Script PowerShell untuk cek kesehatan SEO berulang |
+| `seo-reports/` | Hasil laporan otomatis dari `seo-monitor.ps1` |
 
 ## Rekomendasi nama domain
 
