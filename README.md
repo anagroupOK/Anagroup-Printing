@@ -65,12 +65,19 @@ Catatan:
   - #8 Kartu nama: `https://blog.dicetaksaja.id/2026/11/blog-post_585.html` (permalink custom belum tersimpan)
   - #9 Booklet: `https://blog.dicetaksaja.id/2026/11/cetak-booklet-rawamangun-company.html`
   - #10 Buku yasin: `https://blog.dicetaksaja.id/2026/11/cetak-buku-yasin-rawamangun.html`
+ - ✅ Artikel harian #11–#16 publish (live terverifikasi, ditautkan di landing page + sitemap):
+   - #11 Undangan: `https://blog.dicetaksaja.id/2026/11/blog-post_931.html`
+   - #12 Stiker label produk: `https://blog.dicetaksaja.id/2026/11/cetak-stiker-label-produk-umkm.html`
+   - #13 Banner event: `https://blog.dicetaksaja.id/2026/11/cetak-banner-event-rawamangun-cepat.html`
+   - #14 Buku tahunan sekolah: `https://blog.dicetaksaja.id/2026/11/cetak-buku-tahunan-sekolah-bts.html`
+   - #15 Nota NCR: `https://blog.dicetaksaja.id/2026/11/blog-post_24.html`
+   - #16 Kop surat: `https://blog.dicetaksaja.id/2026/11/cetak-kop-surat-rawamangun-identitas.html`
 - ✅ Title + meta description + H1 dioptimalkan untuk kata kunci lokal dan layanan: *cetak buku umroh/umrah, buku novel, buku tahunan sekolah (BTS), booklet, spanduk vinyl, cutting sticker, paperbag, ID card PVC, fotocopy murah, digital printing A3+, scan A0–A4, kaos, Rawamangun Jakarta Timur, order WA 24 jam*.
 - ✅ 17 kartu layanan, 13 FAQ, dan 14 entri `OfferCatalog`; 11 tautan internal ke artikel blog yang sudah kaya kata kunci (buku umroh, Yasin, agenda, kaos, buku menu, digital printing, spanduk, cutting sticker, buku novel, paperbag, ID card).
 - ✅ Strategi kata kunci memakai variasi ejaan **`umroh`** dan **`umrah`**, serta istilah **`BTS`** diperjelas sebagai **buku tahunan sekolah**. Tidak memakai meta `keywords` (diabaikan Google) — fokus ke search intent, konten, tautan internal, dan schema.
 - ✅ `hreflang="id-ID"` + `x-default`, meta geo, `og:locale`, `max-image-preview:large`.
 - ✅ Structured data `@graph`: `LocalBusiness` + `WebSite` + `FAQPage` (13 FAQ, teksnya identik dengan FAQ yang terlihat). `OfferCatalog` berisi 14 layanan, termasuk 5 penambahan terbaru. Alamat diverifikasi dari Google Maps listing (`Jalan Balai Pustaka Baru, RW 07`, 13220).
-- ✅ `robots.txt` + `sitemap.xml` (16 URL: landing page + 15 artikel blog). Blogger robots.txt kustom juga sudah diperbarui ke `Sitemap: https://dicetaksaja.id/sitemap.xml`.
+- ✅ `robots.txt` + `sitemap.xml` (22 URL: landing page + 21 artikel blog). Blogger robots.txt kustom juga sudah diperbarui ke `Sitemap: https://dicetaksaja.id/sitemap.xml`.
 - ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Pembaruan terbaru sudah tayang, jadi Google akan mengambil versi ini lewat sitemap pada crawl berikutnya.
 - ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
 - ✅ Semua 42 foto hasil cetak asli sudah terpasang di galeri (7 kolom × 6 baris, total ±508 KB).

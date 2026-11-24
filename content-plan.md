@@ -16,12 +16,12 @@ Target: **1 artikel/hari selama 30 hari** untuk memperkuat SEO lokal Rawamangun/
 | 8 | 2026-11-29 | cetak kartu nama rawamangun | Cetak Kartu Nama Rawamangun Mulai Rp35.000: Profesional & Tajam | Published | https://blog.dicetaksaja.id/2026/11/blog-post_585.html |
 | 9 | 2026-11-30 | cetak booklet rawamangun | Cetak Booklet Rawamangun: Company Profile, Katalog, & Presentasi | Published | https://blog.dicetaksaja.id/2026/11/cetak-booklet-rawamangun-company.html |
 | 10 | 2026-12-01 | cetak buku yasin rawamangun | Cetak Buku Yasin Rawamangun: Hardcover/Softcover untuk Pengajian | Published | https://blog.dicetaksaja.id/2026/11/cetak-buku-yasin-rawamangun.html |
-| 11 | 2026-12-02 | cetak undangan rawamangun | Cetak Undangan Rawamangun: Pernikahan & Acara Custom | Planned | - |
-| 12 | 2026-12-03 | cetak stiker label produk rawamangun | Cetak Stiker Label Produk UMKM Rawamangun: Tahan & Custom | Planned | - |
-| 13 | 2026-12-04 | cetak banner event rawamangun | Cetak Banner Event Rawamangun: Cepat untuk Seminar & Pameran | Planned | - |
-| 14 | 2026-12-05 | cetak buku tahunan sekolah rawamangun | Cetak Buku Tahunan Sekolah Rawamangun: Desain Rapi, Jilid Kuat | Planned | - |
-| 15 | 2026-12-06 | cetak nota ncr rawamangun | Cetak Nota NCR Rawamangun: Kwitansi & Nota 2-3 Rangkap | Planned | - |
-| 16 | 2026-12-07 | cetak kop surat rawamangun | Cetak Kop Surat Rawamangun: Identitas Kantor Profesional | Planned | - |
+| 11 | 2026-12-02 | cetak undangan rawamangun | Cetak Undangan Rawamangun: Pernikahan & Acara Custom | Published | https://blog.dicetaksaja.id/2026/11/blog-post_931.html |
+| 12 | 2026-12-03 | cetak stiker label produk rawamangun | Cetak Stiker Label Produk UMKM Rawamangun: Tahan & Custom | Published | https://blog.dicetaksaja.id/2026/11/cetak-stiker-label-produk-umkm.html |
+| 13 | 2026-12-04 | cetak banner event rawamangun | Cetak Banner Event Rawamangun: Cepat untuk Seminar & Pameran | Published | https://blog.dicetaksaja.id/2026/11/cetak-banner-event-rawamangun-cepat.html |
+| 14 | 2026-12-05 | cetak buku tahunan sekolah rawamangun | Cetak Buku Tahunan Sekolah Rawamangun: Desain Rapi, Jilid Kuat | Published | https://blog.dicetaksaja.id/2026/11/cetak-buku-tahunan-sekolah-bts.html |
+| 15 | 2026-12-06 | cetak nota ncr rawamangun | Cetak Nota NCR Rawamangun: Kwitansi & Nota 2-3 Rangkap | Published | https://blog.dicetaksaja.id/2026/11/blog-post_24.html |
+| 16 | 2026-12-07 | cetak kop surat rawamangun | Cetak Kop Surat Rawamangun: Identitas Kantor Profesional | Published | https://blog.dicetaksaja.id/2026/11/cetak-kop-surat-rawamangun-identitas.html |
 | 17 | 2026-12-08 | cetak amplop perusahaan rawamangun | Cetak Amplop Perusahaan Rawamangun: Logo Jelas & Rapi | Planned | - |
 | 18 | 2026-12-09 | cetak map folder rawamangun | Cetak Map Folder Rawamangun untuk Dokumen Kantor & Presentasi | Planned | - |
 | 19 | 2026-12-10 | cetak sertifikat rawamangun | Cetak Sertifikat Rawamangun: Seminar, Pelatihan, & Penghargaan | Planned | - |
