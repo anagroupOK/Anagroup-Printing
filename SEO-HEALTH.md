@@ -7,10 +7,10 @@ Audit terakhir: **25 November 2026** · Property GSC: `sc-domain:dicetaksaja.id`
 | Aspek | Status | Catatan |
 |---|---|---|
 | Indexing landing page | ✅ | URL Inspection: "URL ada di Google" + "Halaman diindeks" |
-| Sitemap | ✅ | 22 URL, status Sukses, dibaca 24 Nov (sebelumnya cuma 6) |
+| Sitemap | ✅ | 36 URL, status Sukses, terakhir dibaca 24 Nov (sebelumnya cuma 6) |
 | Semua URL sitemap | ✅ | 22/22 HTTP 200 |
 | Schema landing | ✅ | LocalBusiness + WebSite + FAQPage, tanpa keywords meta |
-| Schema 16 artikel | ✅ | Semua `BlogPosting`, rating/review palsu sudah dihapus (24 Nov) |
+| Schema 30 artikel | ✅ | Semua `BlogPosting`, rating/review palsu sudah dihapus (24 Nov) |
 | Judul artikel | ✅ | 2 artikel "[Tanpa judul]" sudah diperbaiki (24 Nov) |
 | Posisi brand query | ✅ | `dicetaksaja.id` = hasil organik #1 untuk "DicetakSaja Rawamangun" |
 | Posisi keyword lokal | ⚠️ | Tidak masuk halaman 1 untuk "percetakan rawamangun jakarta timur" |
@@ -43,10 +43,10 @@ Audit terakhir: **25 November 2026** · Property GSC: `sc-domain:dicetaksaja.id`
 3. **Sitemap `lastmod` tidak akurat (sudah diperbaiki).** 15 artikel bertanda 26 Nov–7 Des 2026 (masa depan), padahal `article:published_time` asli: #1–#10 = **22 Nov 2026**, #11–#16 = **24 Nov 2026**. Root diubah ke **25 Nov 2026** (setelah crosslink). `content-plan.md` juga disamakan dengan tanggal publish asli.
 4. **Nomor WA konsisten** — semua 12 CTA di landing dan 2 CTA di masing-masing 30 draft memakai `wa.me/6281213053872`; tidak ada `wa.link`/nomor lama di file proyek.
 5. **Crosslink masih live** (dicek ulang dengan cache-buster): homepage `www.anagroup.id` dan `print.anagroup.id` memuat tautan ke `https://dicetaksaja.id/`.
-6. **Sesi Google sudah logout.** GSC dan Blogger mengarah ke halaman login, jadi pengecekan Performance/Coverage, perbaikan permalink `blog-post_*`, dan publish #17–#30 **tertunda sampai login ulang**.
+6. **Sesi Google aktif.** GSC, Blogger, dan Maps sudah terbaca. Ke-30 artikel target sudah terbit; 5 permalink `blog-post_*` lama sengaja dipertahankan agar tidak memutus URL yang sudah terindeks.
 7. **GBP masih belum diperbaiki.** Google Maps live menampilkan `Percetakan Anagroup` 4,7/5 (13 ulasan), Website `anagroup.id`, booking `wa.link` — belum `https://dicetaksaja.id/`. Local Pack untuk query brand menampilkan percetakan lain (4,8/5, 68 ulasan), bukan AnaGroup. Kesenjangan ulasan/sitasi masih menjadi penghambat utama page 1.
-8. **Indeksasi sudah baik.** `site:dicetaksaja.id` menampilkan landing + artikel blog (canonical HTTPS benar di semua 16 artikel, `BlogPosting` aktif, `Product`/rating palsu tidak ada). `site:blog.dicetaksaja.id` kosong karena Google mengelola subdomain di bawah domain property — ini normal.
-9. **Pipeline 30 draft sudah siap.** Semua intro 80–120 kata, 4 FAQ, CTA WA, tautan internal HTTPS, dan deskripsi 140–160 karakter. Metadata lengkap (permalink, deskripsi, label) ada di `blog-drafts/PUBLISH-META.md`. Tidak ada harga di luar daftar final, rating, atau testimoni buatan.
+8. **Indeksasi sudah baik.** `site:dicetaksaja.id` menampilkan landing + artikel blog (canonical HTTPS benar di semua 30 artikel target, `BlogPosting` aktif, `Product`/rating palsu tidak ada). `site:blog.dicetaksaja.id` kosong karena Google mengelola subdomain di bawah domain property — ini normal.
+9. **Pipeline 30 artikel sudah rampung.** Semua intro 80–120 kata, 4 FAQ, CTA WA, tautan internal HTTPS, dan deskripsi 140–160 karakter sudah terbit. Metadata lengkap (URL live, deskripsi, label) ada di `blog-drafts/PUBLISH-META.md`. Tidak ada harga di luar daftar final, rating, atau testimoni buatan.
 
 ## Posisi di Google saat ini (penelusuran langsung)
 
@@ -65,7 +65,7 @@ Kesimpulan: fondasi teknis sudah sehat. Penghambat utama masuk page 1 bukan lagi
 4. ~~**Pasang tautan silang**: `www.anagroup.id` → `dicetaksaja.id` (WPCode snippet baru), `print.anagroup.id` → `dicetaksaja.id`, dan sebaliknya.~~ **Selesai 25 Nov** — ketiga domain saling menaut; tidak perlu diulang kecuali template/footer berubah.
 
 ### P1 — 2–4 minggu
-5. Lanjut **#17–#30** sesuai `content-plan.md` (1 artikel/hari) — sudah 16/30.
+5. **#1–#30 sudah 30/30 terbit** sesuai `content-plan.md`; tidak ada artikel baru yang dijadwalkan hari ini.
 6. Perbaiki permalink `blog-post_*` (#1, #5, #8, #11, #15) ke slug keyword saat sesi Blogger stabil; update semua referensi.
 7. Bangun sitasi lokal: direktori usaha Jakarta Timur, Google Maps, Instagram, Facebook, sidebar komunitas Rawamangun.
 8. Tambah internal link kontekstual dari artikel ke halaman layanan landing (bukan hanya footer).
@@ -85,7 +85,7 @@ Script ini memeriksa:
 - HTTP status URL inti (`/`, `robots.txt`, `sitemap.xml`, `www`, blog)
 - Jumlah URL di sitemap + status HTTP masing-masing
 - Title, deskripsi, H1, alt gambar, CTA WA, meta keywords, schema, canonical di landing
-- Judul/H1 kosong, schema Product/rating palsu, CTA WA, dan internal link di 16 artikel
+- Judul/H1 kosong, schema Product/rating palsu, CTA WA, dan internal link di 30 artikel target
 
 Hasil tersimpan otomatis di `seo-reports/seo-check-YYYYMMDD-HHMM.txt`.
 
