@@ -91,6 +91,18 @@ Hasil tersimpan otomatis di `seo-reports/seo-check-YYYYMMDD-HHMM.txt`.
 
 Jadwal yang disarankan: **cek setiap hari setelah publish artikel**, plus cek GSC tiap 3 hari (imresi, posisi, coverage).
 
+## Tindak lanjut 25 November 2026 (sesi lanjutan 17.12 WIB)
+
+1. **Permintaan indexing GSC: 11 dari 15 URL berhasil masuk antrean crawl prioritas.**
+   - Berhasil: `percetakan-24-jam-jakarta-timur.html`, `blog-post_721.html`, `blog-post_25.html`, `cetak-sertifikat-rawamangun-seminar.html`, `blog-post_209.html`, `cetak-kartu-member-pvc-rawamangun.html`, `cetak-lanyard-rawamangun-paket-id-card.html`, `cetak-stiker-vinyl-tahan-air-rawamangun.html`, `cetak-packaging-umkm-rawamangun-box.html`, `cetak-flyer-promosi-rawamangun-cepat.html`, `cetak-kalender-mejadinding-rawamangun.html`.
+   - **Tertunda karena kuota harian GSC** (jangan diulang hari ini, lanjut 26 Nov): `fotocopy-warna-rawamangun-hasil-tajam.html`, `print-dokumen-online-rawamangun-kirim.html`, `cetak-undangan-pernikahan-rawamangun.html`, dan `https://dicetaksaja.id/`.
+   - Sitemap 36 URL sudah dikirim ulang 25 Nov dan berstatus **Sukses**; GSC masih menampilkan "Memproses data, harap periksa kembali setelah sekitar satu hari".
+2. **Coverage dan Performance GSC belum bisa dicek ulang.** Sesi Google ter-logout saat desktop/server restart, sehingga halaman GSC kini mengarah ke sign-in. Perlu login ulang sebelum mengekstrak data terbaru.
+3. **GBP sengaja tidak diubah.** Akun Google yang tersedia justru mengelola listing **"Print Buku Murah dan Cetak Buku Cepat"** (telepon `0821-1426-7765`, WA `6282114267765`, situs `prinajadisini.blogspot.com`), bukan **"Percetakan Anagroup"**. Mengubahnya berisiko merusak profil bisnis lain. Listing `Percetakan Anagroup` (4,7/5, 13 ulasan) masih memakai Website `anagroup.id` dan booking `wa.link`; perlu login sebagai pemilik listing itu atau jalur **Sarankan edit** untuk mengganti Website ke `https://dicetaksaja.id/`.
+4. **9 draft Blogger belum dibersihkan** karena sesi Blogger ikut ter-logout. Setelah login, hapus hanya draft duplikat/kosong hasil percobaan publish/GData; jangan sentuh 30 artikel yang sudah live.
+5. **Health check terbaru 17.11 WIB: 0 masalah** — 5/5 URL inti 200, sitemap 36 URL, 35/35 artikel sehat. Laporan: `seo-reports/seo-check-20261125-1712.txt`.
+6. **Commit GitHub tertunda** karena halaman GitHub juga menampilkan tombol Sign in setelah restart. Sumber untuk web editor (`SEO-HEALTH.md`, `seo-check-20261125-1548.txt`, `seo-check-20261125-1712.txt`) disiapkan di `%TEMP%\\opencode\\commit-sources3.html`.
+
 ## Catatan penting
 
 - Harga final yang boleh disebut eksplisit: fotocopy A4 `Rp200/lembar`, buku umroh `Rp12.000`, Print Digital A3+ `Rp1.750`, kartu nama `Rp35.000`. Layanan lain: "mulai dari / konfirmasi WA".
