@@ -36,6 +36,17 @@ Audit terakhir: **25 November 2026** Â· Property GSC: `sc-domain:dicetaksaja.i
    - `print.anagroup.id` â†’ `dicetaksaja.id` + `www.anagroup.id` (footer + `sameAs`), setelah upload `index.html` via cPanel File Manager ke `/home/anagroup/public_html/print/index.html`.
 2. Tautan memakai HTTPS dan anchor deskriptif; tidak ada `target="_blank"` di blok footer `www.anagroup.id` agar sinyal tautan tetap mengalami alami.
 
+### Audit lanjutan 25 November 2026 (12.29 WIB)
+
+1. **Health check otomatis: 0 masalah** â€” 5/5 URL inti 200, 22/22 URL sitemap 200, 21/21 artikel sehat. Laporan: `seo-reports/seo-check-20261125-1231.txt`.
+2. **Lighthouse live `https://dicetaksaja.id/`: SEO 100, Accessibility 100, Best Practices 100**, tanpa failure. Tidak ada perbaikan teknis lagi di landing page.
+3. **Sitemap `lastmod` tidak akurat (sudah diperbaiki).** 15 artikel bertanda 26 Novâ€“7 Des 2026 (masa depan), padahal `article:published_time` asli: #1â€“#10 = **22 Nov 2026**, #11â€“#16 = **24 Nov 2026**. Root diubah ke **25 Nov 2026** (setelah crosslink). `content-plan.md` juga disamakan dengan tanggal publish asli.
+4. **Nomor WA konsisten** â€” semua 12 CTA di landing dan 2 CTA di masing-masing 18 draft memakai `wa.me/6281213053872`; tidak ada `wa.link`/nomor lama di file proyek.
+5. **Crosslink masih live** (dicek ulang dengan cache-buster): homepage `www.anagroup.id` dan `print.anagroup.id` memuat tautan ke `https://dicetaksaja.id/`.
+6. **Sesi Google sudah logout.** GSC dan Blogger mengarah ke halaman login, jadi pengecekan Performance/Coverage, perbaikan permalink `blog-post_*`, dan publish #17/#18 **tertunda sampai login ulang**.
+7. **GBP masih belum diperbaiki.** Google Maps live menampilkan `Percetakan Anagroup` 4,7/5 (13 ulasan), Website `anagroup.id`, booking `wa.link` â€” belum `https://dicetaksaja.id/`. Local Pack untuk query brand menampilkan percetakan lain (4,8/5, 68 ulasan), bukan AnaGroup. Kesenjangan ulasan/sitasi masih menjadi penghambat utama page 1.
+8. **Indeksasi sudah baik.** `site:dicetaksaja.id` menampilkan landing + artikel blog (canonical HTTPS benar di semua 16 artikel, `BlogPosting` aktif, `Product`/rating palsu tidak ada). `site:blog.dicetaksaja.id` kosong karena Google mengelola subdomain di bawah domain property â€” ini normal.
+
 ## Posisi di Google saat ini (penelusuran langsung)
 
 - `"DicetakSaja" Rawamangun` â†’ **landing page muncul sebagai hasil web organik pertama**. Blog articles juga tampil (Percetakan Rawamangun, Booklet, Spanduk, Fotocopy, Kartu Nama, dll.). Namun **AI Overview dan Local Pack masih menampilkan kompetitor** (Delisa, Prismacom, Nanda, dll.).
