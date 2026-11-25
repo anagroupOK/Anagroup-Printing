@@ -37,13 +37,13 @@ Target: **1 artikel/hari selama 30 hari** untuk memperkuat SEO lokal Rawamangun/
 | 29 | 2026-12-20 | cetak undangan pernikahan rawamangun | Cetak Undangan Pernikahan Rawamangun: Elegan, Cepat, Custom | Planned | - |
 | 30 | 2026-12-21 | percetakan 24 jam jakarta timur | Percetakan 24 Jam Jakarta Timur Rawamangun: Solusi Cetak Urgent | Planned | - |
 
-> **Catatan 25 Nov 2026:** tanggal #1â€“#16 di atas sudah disesuaikan dengan `article:published_time` asli di Blogger (#1â€“#10 = 22 Nov, #11â€“#16 = 24 Nov), bukan tanggal rencana semula. Mulai #17, terbitkan **maksimal 1 artikel/hari** agar sinyal kesegaran konten tidak terbuang. Draft #17/#18 sudah siap di `blog-drafts/` dan menunggu sesi Blogger aktif.
+> **Catatan 25 Nov 2026:** tanggal #1–#16 di atas sudah disesuaikan dengan `article:published_time` asli di Blogger (#1–#10 = 22 Nov, #11–#16 = 24 Nov), bukan tanggal rencana semula. Mulai #17, terbitkan **maksimal 1 artikel/hari** agar sinyal kesegaran konten tidak terbuang. **Ke-30 draft kini tersedia di `blog-drafts/`**, dengan metadata publish di `blog-drafts/PUBLISH-META.md`: intro 80–120 kata, 4 FAQ, CTA WA, internal link HTTPS, permalink, deskripsi 140–160 karakter, dan label SEO. #17–#30 menunggu sesi Blogger aktif.
 
 ## Aturan produksi harian
 
 - **1 artikel/hari**. Publish konsisten (pagi/siang WIB).
 - Wajib: kata kunci lokal di judul/H1, intro 80-120 kata, H2 layanan/harga/finishing/waktu/alasan, FAQ 3-5, CTA WA, 2-3 internal link, label `Rawamangun, Jakarta Timur, DicetakSaja, <layanan>`, deskripsi penelusuran 140-160 karakter, permalink custom pendek.
-- **Harga final yang boleh disebut eksplisit**: Fotocopy A4 mulai Rp200/lembar, Buku Umroh mulai Rp12.000, Print Digital A3+ mulai Rp1.750, Kartu Nama mulai Rp35.000. Harga lain: â€œmulai dari/konfirmasi WAâ€.
+- **Harga final yang boleh disebut eksplisit**: Fotocopy A4 mulai Rp200/lembar, Buku Umroh mulai Rp12.000, Print Digital A3+ mulai Rp1.750, Kartu Nama mulai Rp35.000. Harga lain: “mulai dari/konfirmasi WA”.
 - **Tanpa testimoni palsu**. Testimoni hanya dengan izin.
 - Setelah publish: update `index.html` + `sitemap.xml` + `README.md`, commit GitHub, tunggu Pages build, request indexing GSC.
 
