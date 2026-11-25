@@ -10,7 +10,7 @@ Landing page statis (HTML + CSS + JS murni) untuk brand **DicetakSaja / AnaGroup
 | `styles.css` | Seluruh gaya/tampilan responsif |
 | `script.js` | Menu mobile, scroll reveal, FAQ accordion, tahun footer |
 | `CNAME` | Nama domain custom untuk GitHub Pages (ubah kalau pilih nama lain) |
-| `sitemap.xml` | Daftar 22 URL yang disubmit ke Google Search Console |
+| `sitemap.xml` | Daftar 36 URL yang disubmit ke Google Search Console |
 | `content-plan.md` | Kalender 30 artikel harian + aturan produksi |
 | `blog-drafts/` | Draft HTML artikel harian #1–#30 + `PUBLISH-META.md` (permalink, deskripsi, label) |
 | `SEO-HEALTH.md` | Audit SEO, posisi di Google, prioritas page 1, dan cara monitoring |
@@ -83,10 +83,10 @@ Catatan:
 - ✅ Strategi kata kunci memakai variasi ejaan **`umroh`** dan **`umrah`**, serta istilah **`BTS`** diperjelas sebagai **buku tahunan sekolah**. Tidak memakai meta `keywords` (diabaikan Google) — fokus ke search intent, konten, tautan internal, dan schema.
 - ✅ `hreflang="id-ID"` + `x-default`, meta geo, `og:locale`, `max-image-preview:large`.
 - ✅ Structured data `@graph`: `LocalBusiness` + `WebSite` + `FAQPage` (13 FAQ, teksnya identik dengan FAQ yang terlihat). `OfferCatalog` berisi 14 layanan, termasuk 5 penambahan terbaru. Alamat diverifikasi dari Google Maps listing (`Jalan Balai Pustaka Baru, RW 07`, 13220).
-- ✅ `robots.txt` + `sitemap.xml` (22 URL: landing page + 21 artikel blog). Blogger robots.txt kustom juga sudah diperbarui ke `Sitemap: https://dicetaksaja.id/sitemap.xml`.
+- ✅ `robots.txt` + `sitemap.xml` (36 URL: landing page + 35 artikel blog, termasuk 30 artikel target). Blogger robots.txt kustom juga sudah diperbarui ke `Sitemap: https://dicetaksaja.id/sitemap.xml`.
 - ✅ Google Search Console: properti **`sc-domain:dicetaksaja.id`** diverifikasi otomatis lewat CNAME Google; sitemap **`https://dicetaksaja.id/sitemap.xml`** status **Sukses**; URL root **diuji langsung → "Halaman dapat diindeks"** dan **indexing telah diminta** (antrean crawl prioritas). Pembaruan terbaru sudah tayang, jadi Google akan mengambil versi ini lewat sitemap pada crawl berikutnya.
 - ✅ Lighthouse terakhir: **Accessibility 100, Best Practices 100, SEO 100**.
-- ✅ Pipeline konten lengkap: **30 draft HTML** (intro 80–120 kata, 4 FAQ, CTA WA, internal link HTTPS) plus `blog-drafts/PUBLISH-META.md` berisi permalink, deskripsi 140–160 karakter, dan label SEO. #1–#16 sudah live; #17–#30 tinggal publish saat sesi Blogger aktif.
+- ✅ Pipeline konten lengkap: **30 artikel HTML** (intro 80–120 kata, 4 FAQ, CTA WA, internal link HTTPS) plus `blog-drafts/PUBLISH-META.md` berisi judul, URL live, deskripsi 140–160 karakter, dan label SEO. **Ke-30 artikel sudah live di Blogger per 25 Nov 2026**; #17–#30 terbit pada 25 Nov memakai permalink aktual Blogger.
 - ✅ Semua 42 foto hasil cetak asli sudah terpasang di galeri (7 kolom × 6 baris, total ±508 KB).
 - ✅ Harga final mulai sudah dipasang: fotocopy A4 **Rp200/lembar**, buku umroh **Rp12.000/buku**, print digital A3+ **Rp1.750/lembar**, kartu nama **Rp35.000**.
 - ⏳ Masih perlu: testimoni berizin dan konfirmasi harga final untuk layanan lainnya sebelum tayang permanen.
