@@ -22,20 +22,20 @@ Target: **1 artikel/hari selama 30 hari** untuk memperkuat SEO lokal Rawamangun/
 | 14 | 2026-11-24 | cetak buku tahunan sekolah rawamangun | Cetak Buku Tahunan Sekolah Rawamangun: Desain Rapi, Jilid Kuat | Published | https://blog.dicetaksaja.id/2026/11/cetak-buku-tahunan-sekolah-bts.html |
 | 15 | 2026-11-24 | cetak nota ncr rawamangun | Cetak Nota NCR Rawamangun: Kwitansi & Nota 2-3 Rangkap | Published | https://blog.dicetaksaja.id/2026/11/blog-post_24.html |
 | 16 | 2026-11-24 | cetak kop surat rawamangun | Cetak Kop Surat Rawamangun: Identitas Kantor Profesional | Published | https://blog.dicetaksaja.id/2026/11/cetak-kop-surat-rawamangun-identitas.html |
-| 17 | 2026-12-08 | cetak amplop perusahaan rawamangun | Cetak Amplop Perusahaan Rawamangun: Logo Jelas & Rapi | Planned | - |
-| 18 | 2026-12-09 | cetak map folder rawamangun | Cetak Map Folder Rawamangun untuk Dokumen Kantor & Presentasi | Planned | - |
-| 19 | 2026-12-10 | cetak sertifikat rawamangun | Cetak Sertifikat Rawamangun: Seminar, Pelatihan, & Penghargaan | Planned | - |
-| 20 | 2026-12-11 | cetak menu restoran rawamangun | Cetak Buku Menu Restoran Rawamangun: Tahan & Elegan | Planned | - |
-| 21 | 2026-12-12 | cetak kartu member pvc rawamangun | Cetak Kartu Member PVC Rawamangun: Barcode & Desain Custom | Planned | - |
-| 22 | 2026-12-13 | cetak lanyard rawamangun | Cetak Lanyard Rawamangun: Paket ID Card & Tali Event/Kantor | Planned | - |
-| 23 | 2026-12-14 | cetak stiker vinyl rawamangun | Cetak Stiker Vinyl Tahan Air Rawamangun untuk Outdoor & Produk | Planned | - |
-| 24 | 2026-12-15 | cetak packaging umkm rawamangun | Cetak Packaging UMKM Rawamangun: Box, Sleeve, & Label Produk | Planned | - |
-| 25 | 2026-12-16 | cetak flyer promosi rawamangun | Cetak Flyer Promosi Rawamangun: Cepat Sebar untuk Toko & Event | Planned | - |
-| 26 | 2026-12-17 | cetak kalender rawamangun | Cetak Kalender Meja/Dinding Rawamangun untuk Branding Perusahaan | Planned | - |
-| 27 | 2026-12-18 | fotocopy warna rawamangun | Fotocopy Warna Rawamangun: Hasil Tajam untuk Materi & Presentasi | Planned | - |
-| 28 | 2026-12-19 | print dokumen online rawamangun | Print Dokumen Online Rawamangun: Kirim File WA, Ambil/Antar | Planned | - |
-| 29 | 2026-12-20 | cetak undangan pernikahan rawamangun | Cetak Undangan Pernikahan Rawamangun: Elegan, Cepat, Custom | Planned | - |
-| 30 | 2026-12-21 | percetakan 24 jam jakarta timur | Percetakan 24 Jam Jakarta Timur Rawamangun: Solusi Cetak Urgent | Planned | - |
+| 17 | 2026-12-08 | cetak amplop perusahaan rawamangun | Cetak Amplop Perusahaan Rawamangun: Logo Jelas & Rapi | Published | https://blog.dicetaksaja.id/2026/11/blog-post_25.html |
+| 18 | 2026-12-09 | cetak map folder rawamangun | Cetak Map Folder Rawamangun untuk Dokumen Kantor & Presentasi | Published | https://blog.dicetaksaja.id/2026/11/blog-post_721.html |
+| 19 | 2026-12-10 | cetak sertifikat rawamangun | Cetak Sertifikat Rawamangun: Seminar, Pelatihan, & Penghargaan | Published | https://blog.dicetaksaja.id/2026/11/cetak-sertifikat-rawamangun-seminar.html |
+| 20 | 2026-12-11 | cetak menu restoran rawamangun | Cetak Buku Menu Restoran Rawamangun: Tahan & Elegan | Published | https://blog.dicetaksaja.id/2026/11/blog-post_209.html |
+| 21 | 2026-12-12 | cetak kartu member pvc rawamangun | Cetak Kartu Member PVC Rawamangun: Barcode & Desain Custom | Published | https://blog.dicetaksaja.id/2026/11/cetak-kartu-member-pvc-rawamangun.html |
+| 22 | 2026-12-13 | cetak lanyard rawamangun | Cetak Lanyard Rawamangun: Paket ID Card & Tali Event/Kantor | Published | https://blog.dicetaksaja.id/2026/11/cetak-lanyard-rawamangun-paket-id-card.html |
+| 23 | 2026-12-14 | cetak stiker vinyl rawamangun | Cetak Stiker Vinyl Tahan Air Rawamangun untuk Outdoor & Produk | Published | https://blog.dicetaksaja.id/2026/11/cetak-stiker-vinyl-tahan-air-rawamangun.html |
+| 24 | 2026-12-15 | cetak packaging umkm rawamangun | Cetak Packaging UMKM Rawamangun: Box, Sleeve, & Label Produk | Published | https://blog.dicetaksaja.id/2026/11/cetak-packaging-umkm-rawamangun-box.html |
+| 25 | 2026-12-16 | cetak flyer promosi rawamangun | Cetak Flyer Promosi Rawamangun: Cepat Sebar untuk Toko & Event | Published | https://blog.dicetaksaja.id/2026/11/cetak-flyer-promosi-rawamangun-cepat.html |
+| 26 | 2026-12-17 | cetak kalender rawamangun | Cetak Kalender Meja/Dinding Rawamangun untuk Branding Perusahaan | Published | https://blog.dicetaksaja.id/2026/11/cetak-kalender-mejadinding-rawamangun.html |
+| 27 | 2026-12-18 | fotocopy warna rawamangun | Fotocopy Warna Rawamangun: Hasil Tajam untuk Materi & Presentasi | Published | https://blog.dicetaksaja.id/2026/11/fotocopy-warna-rawamangun-hasil-tajam.html |
+| 28 | 2026-12-19 | print dokumen online rawamangun | Print Dokumen Online Rawamangun: Kirim File WA, Ambil/Antar | Published | https://blog.dicetaksaja.id/2026/11/print-dokumen-online-rawamangun-kirim.html |
+| 29 | 2026-12-20 | cetak undangan pernikahan rawamangun | Cetak Undangan Pernikahan Rawamangun: Elegan, Cepat, Custom | Published | https://blog.dicetaksaja.id/2026/11/cetak-undangan-pernikahan-rawamangun.html |
+| 30 | 2026-12-21 | percetakan 24 jam jakarta timur | Percetakan 24 Jam Jakarta Timur Rawamangun: Solusi Cetak Urgent | Published | https://blog.dicetaksaja.id/2026/11/percetakan-24-jam-jakarta-timur.html |
 
 > **Catatan 25 Nov 2026:** tanggal #1–#16 di atas sudah disesuaikan dengan `article:published_time` asli di Blogger (#1–#10 = 22 Nov, #11–#16 = 24 Nov), bukan tanggal rencana semula. Mulai #17, terbitkan **maksimal 1 artikel/hari** agar sinyal kesegaran konten tidak terbuang. **Ke-30 draft kini tersedia di `blog-drafts/`**, dengan metadata publish di `blog-drafts/PUBLISH-META.md`: intro 80–120 kata, 4 FAQ, CTA WA, internal link HTTPS, permalink, deskripsi 140–160 karakter, dan label SEO. #17–#30 menunggu sesi Blogger aktif.
 
