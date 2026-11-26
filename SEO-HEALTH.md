@@ -1,23 +1,23 @@
 # SEO Health Check — dicetaksaja.id
 
-Audit terakhir: **25 November 2026** · Property GSC: `sc-domain:dicetaksaja.id`
+Audit terakhir: **26 November 2026** · Property GSC: `sc-domain:dicetaksaja.id`
 
 ## Ringkasan eksekutif
 
 | Aspek | Status | Catatan |
 |---|---|---|
 | Indexing landing page | ✅ | URL Inspection: "URL ada di Google" + "Halaman diindeks" |
-| Sitemap | ✅ | 36 URL, status Sukses, terakhir dibaca 24 Nov (sebelumnya cuma 6) |
-| Semua URL sitemap | ✅ | 22/22 HTTP 200 |
+| Sitemap | ✅ | 36 URL, status Sukses, terakhir dibaca 25 Nov |
+| Semua URL sitemap | ✅ | 36 URL terdeteksi; 35/35 artikel sehat (cek 26 Nov 17.56 WIB) |
 | Schema landing | ✅ | LocalBusiness + WebSite + FAQPage, tanpa keywords meta |
 | Schema 30 artikel | ✅ | Semua `BlogPosting`, rating/review palsu sudah dihapus (24 Nov) |
 | Judul artikel | ✅ | 2 artikel "[Tanpa judul]" sudah diperbaiki (24 Nov) |
 | Posisi brand query | ✅ | `dicetaksaja.id` = hasil organik #1 untuk "DicetakSaja Rawamangun" |
 | Posisi keyword lokal | ⚠️ | Tidak masuk halaman 1 untuk "percetakan rawamangun jakarta timur" |
-| Google Business Profile | ⚠️ | Ada (4,7/5, 13 ulasan) tapi website-nya mengarah ke `www.anagroup.id` |
+| Google Business Profile | ✅ | Kedua listing Anagroup memakai `https://dicetaksaja.id/` (terverifikasi live 26 Nov) |
 | Konsistensi NAP | ⚠️ | Alamat schema beda dengan GBP — sudah diselaraskan 24 Nov |
 | Cross-link antar domain | ✅ | `www.anagroup.id ⇄ dicetaksaja.id ⇄ print.anagroup.id` sudah live (25 Nov); `www.anagroup.id` juga menaut ke `print.anagroup.id` |
-| Trafik | ⚠️ | 3 impresi, posisi rata-rata 26, 0 klik (domain baru) |
+| Trafik | ⚠️ | 19 tayangan, posisi rata-rata 25,6, 0 klik (19–24 Nov 2026, domain baru) |
 
 ## Temuan & perbaikan 24 November 2026
 
