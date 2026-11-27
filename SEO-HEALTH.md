@@ -1,6 +1,6 @@
 # SEO Health Check — dicetaksaja.id
 
-Audit terakhir: **26 November 2026** · Property GSC: `sc-domain:dicetaksaja.id`
+Audit terakhir: **27 November 2026** · Property GSC: `sc-domain:dicetaksaja.id`
 
 ## Ringkasan eksekutif
 
@@ -111,6 +111,17 @@ Jadwal yang disarankan: **cek setiap hari setelah publish artikel**, plus cek GS
 4. **Commit GitHub selesai.** Laporan `seo-check-20261126-1759.txt` → `2336700`, pembaruan status GBP → `42fbb51`. GitHub Pages build **#85 dan #86 completed successfully**.
 5. **Performance GSC membaik.** Data 19–24 Nov 2026 (terakhir diperbarui ~3 jam lalu): **0 klik, 19 tayangan, CTR 0%, posisi rata-rata 25,6** (sebelumnya 10 tayangan dan posisi 34,9). Tujuh kueri semuanya 1 tayangan tanpa klik: `fotocopy dan print 24 jam jakarta timur`, `cetak spanduk 24 jam`, `cetak buku agenda`, `cetak nota rawamangun`, `dicetak`, `percetakan jakarta timur`, `cetak spanduk berkualitas jakarta`.
 6. **Sitemap & Coverage.** `https://dicetaksaja.id/sitemap.xml` tetap **Sukses**, 36 URL ditemukan, terakhir dibaca 25 Nov 2026. Laporan "Pengindeksan halaman" masih **"Memproses data, harap periksa kembali setelah sekitar satu hari"**; ini normal setelah sitemap dikirim ulang.
+
+## Tindak lanjut 27 November 2026
+
+1. **Health check 11.03 WIB: 0 masalah.** 5/5 URL inti `200`, sitemap 36 URL, **35/35 artikel sehat**, 42 gambar dengan alt lengkap, 12 tautan WA, 49 tautan blog, tanpa meta keywords. Laporan: `seo-reports/seo-check-20261127-1106.txt`.
+2. **Crosslink 3 domain masih live.** `dicetaksaja.id` → `www.anagroup.id` + `print.anagroup.id`; `www.anagroup.id` → `dicetaksaja.id` + `print.anagroup.id`; `print.anagroup.id` → `dicetaksaja.id` + `www.anagroup.id`. Semua `200`.
+3. **Indeks publik bertambah.** Pencarian `site:dicetaksaja.id` menampilkan landing page + **10 artikel** (termasuk `blog-post_24`, `blog-post_320`, `blog-post_950`, `blog-post_585`, `blog-post_721`, `blog-post_931`, `blog-post_25`, serta artikel lama spanduk/cutting sticker).
+4. **Cuplikan rating lama masih muncul di hasil penelusuran.** Google menampilkan "4,5(1)" pada beberapa artikel, tetapi pemeriksaan langsung HTML live (`blog-post_950`, `blog-post_585`, `blog-post_721`, `blog-post_24`) menunjukkan **0 `aggregateRating`, 0 `review`, 0 `Product`, 1 `BlogPosting`, 0 `no-image.png`**. Ini data rich snippet lama dari crawl sebelum perbaikan 24 Nov, bukan markup yang terpasang sekarang; akan hilang setelah Google crawl ulang.
+5. **GSC Coverage sudah tersedia lagi.** Data terbaru: **94 halaman terindeks**, **153 tidak diindeks** (8 alasan): alternatif dengan kanonis tepat 68, pengalihan 21, duplikat tanpa kanonis pengguna 20, 404 sebanyak 4, diblokir robots.txt 3, kesalahan pengalihan 2, *di-crawl - saat ini tidak diindeks* 24, *ditemukan - saat ini tidak diindeks* 11. Sitemap tetap Sukses 36 URL (terakhir diperbarui 23/11/26).
+6. **Performance tidak berubah dari 26 Nov.** 19–24 Nov 2026: **0 klik, 19 tayangan, CTR 0%, posisi rata-rata 25,6**, 7 kueri masing-masing 1 tayangan.
+7. **GBP diverifikasi ulang.** Kedua listing Anagroup masih memakai `https://dicetaksaja.id/` sebagai Situs TERBARU di halaman Edit profil.
+8. **Commit laporan 27 Nov tertunda.** GitHub menampilkan tombol Sign in; `seo-reports/seo-check-20261127-1106.txt` dan pembaruan ini siap di-commit setelah login `anagroupOK`.
 
 ## Catatan penting
 
