@@ -369,6 +369,8 @@ button { font: inherit; }
 .service-more { display: inline-flex; align-items: center; gap: 5px; margin-top: 10px; font-size: .72rem; font-weight: 800; color: var(--brand-ink); }
 .service-more:hover { color: var(--brand-dark); }
 .service-more .icon { width: 12px; height: 12px; }
+.service-order { margin-top: 12px; padding: 7px 11px; border-radius: 9px; background: rgba(37, 211, 102, .14); color: #12833b; }
+.service-order:hover { background: rgba(37, 211, 102, .24); color: #0c6129; }
 
 .blog-links { margin-top: 34px; padding: 24px; border: 1px dashed #ffd4c3; border-radius: var(--radius-lg); background: #fff8f4; }
 .blog-links h3 { margin-bottom: 14px; font-size: .92rem; letter-spacing: .02em; }

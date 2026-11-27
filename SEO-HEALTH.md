@@ -121,7 +121,8 @@ Jadwal yang disarankan: **cek setiap hari setelah publish artikel**, plus cek GS
 5. **GSC Coverage sudah tersedia lagi.** Data terbaru: **94 halaman terindeks**, **153 tidak diindeks** (8 alasan): alternatif dengan kanonis tepat 68, pengalihan 21, duplikat tanpa kanonis pengguna 20, 404 sebanyak 4, diblokir robots.txt 3, kesalahan pengalihan 2, *di-crawl - saat ini tidak diindeks* 24, *ditemukan - saat ini tidak diindeks* 11. Sitemap tetap Sukses 36 URL (terakhir diperbarui 23/11/26).
 6. **Performance tidak berubah dari 26 Nov.** 19–24 Nov 2026: **0 klik, 19 tayangan, CTR 0%, posisi rata-rata 25,6**, 7 kueri masing-masing 1 tayangan.
 7. **GBP diverifikasi ulang.** Kedua listing Anagroup masih memakai `https://dicetaksaja.id/` sebagai Situs TERBARU di halaman Edit profil.
-8. **Commit laporan 27 Nov tertunda.** GitHub menampilkan tombol Sign in; `seo-reports/seo-check-20261127-1106.txt` dan pembaruan ini siap di-commit setelah login `anagroupOK`.
+8. **Commit laporan 27 Nov selesai.** `seo-reports/seo-check-20261127-1106.txt` → `f3f9337`; pembaruan GSC/GBP di `SEO-HEALTH.md` → `7ef67af`; GitHub Pages build **#90 completed successfully**.
+9. **Perbaikan konversi & kepatuhan 27 Nov (siap commit).** Dihapus klaim "4.9/5 dari pelanggan" + inisial avatar palsu dan 3 kutipan testimoni 5 bintang tanpa izin tertulis; diganti kartu galeri 42 hasil cetak asli. Harga scan `Rp250/lembar` (estimasi lama) diganti "konfirmasi WA" di 3 tempat; kini hanya 4 harga final eksplisit yang tersisa. Ditambahkan 17 tombol "Pesan via WA" dengan pesan khusus per layanan di kartu layanan (total tautan WA naik dari 12 ke 29). CSS `.service-order` ditambahkan supaya CTA menonjol.
 
 ## Catatan penting
 

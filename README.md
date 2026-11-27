@@ -151,10 +151,10 @@ Untuk Netlify/Vercel, upload folder ini lalu ikuti instruksi DNS yang muncul di 
 
 - [ ] Ganti semua kemunculan `dicetaksaja.id` di `index.html` (canonical, og:url, JSON-LD) kalau nama domain berubah.
 - [ ] Sesuaikan nomor WhatsApp `6281213053872` di semua tombol WA (tips: cari "wa.me/").
-- [x] Pasang harga final yang sudah dikonfirmasi: fotocopy A4 mulai Rp200, buku umroh mulai Rp12.000, print digital A3+ mulai Rp1.750, kartu nama mulai Rp35.000. Harga scan (`Rp250/lembar`) masih mengikuti estimasi lama.
-- [ ] Ganti testimoni dengan izin/atribusi pelanggan bila diperlukan.
+- [x] Pasang harga final yang sudah dikonfirmasi: fotocopy A4 mulai Rp200, buku umroh mulai Rp12.000, print digital A3+ mulai Rp1.750, kartu nama mulai Rp35.000. Semua harga lain (termasuk scan) memakai "konfirmasi WA" — estimasi Rp250 sudah dihapus 27 Nov.
+- [x] Hapus klaim rating 4.9/5 dan 3 kutipan testimoni tanpa izin tertulis (27 Nov). Slot testimoni berizin tetap ada.
 - [x] Pasang 42 foto hasil cetak asli di `#galeri` (grid 7×6; widget hero tetap CSS agar ringan).
-- [ ] Tambahkan testimoni berizin dengan menduplikat blok `.testi-card`.
+- [ ] Tambahkan testimoni berizin dengan menduplikat blok `.testi-card` hanya setelah ada izin tertulis.
 - [ ] Uji di HP: menu, tombol WA, dan kecepatan (Lighthouse).
 
 ## Menjalankan lokal
