@@ -1,0 +1,32 @@
+﻿================================================================
+SEO HEALTH CHECK - dicetaksaja.id
+Waktu   : 2026-11-27 11:33:05 WIB
+================================================================
+
+[1] URL INTI
+  OK   200 https://dicetaksaja.id/
+  OK   200 https://dicetaksaja.id/robots.txt
+  OK   200 https://dicetaksaja.id/sitemap.xml
+  OK   200 https://www.dicetaksaja.id/
+  OK   200 https://blog.dicetaksaja.id/
+
+[2] SITEMAP
+  OK   Sitemap terbaca, 36 URL
+
+[3] LANDING PAGE
+  Title    : Cetak Buku Umroh, Spanduk &amp; Fotocopy 24 Jam Rawamangun | DicetakSaja
+  Desc     : 151 karakter
+  H1       : Cetak buku, spanduk &amp; fotocopy 24 jam di Rawamangun.
+  Gambar   : 42 total, 0 tanpa alt
+  CTA WA   : 29 tautan | Blog links: 49
+  Meta kw  : tidak ada (OK)
+  Schema   : LocalBusiness, PostalAddress, City, OpeningHoursSpecification, ContactPoint, OfferCatalog, Offer, Service, WebSite, FAQPage, Question, Answer
+  Canonical: https://dicetaksaja.id/
+
+[4] ARTIKEL (dari sitemap)
+  Sehat   : 35 artikel
+  Masalah : 0 artikel
+
+================================================================
+SELESAI. Core URL gagal: 0
+================================================================
